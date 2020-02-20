@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #990000;
+  --color-gray: #606060;
+  --font-normal: 'Trirong', serif;
+  --font-fancy: 'Italianno', cursive;
+
+}
+
+body {
+  max-width: 90%;
+  margin: auto auto;
+  background: var(--color-primary);
+  background: silver;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+header {
+                /* border: 5px solid red; */
+  width: 100%;
+  height: 140px;
+  display: flex;
+  border: 3px solid var(--color-gray);
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-fancy);
+  font-size: 28px;
+}
+
+.logo {
+              /* border: 1px solid yellow; */
+  height: 140px;
+  width: 180px;
+  margin-left: 15px;
+}
+
+nav {
+                /* border: 1px solid green; */
+  width: 90%;
+
+}
+
+.menu_list {
+                /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 40px 0 0 auto;
+  font-size: 62px;
+  width: 80%;
+}
+
+.menu_list > li {
+  padding-bottom: 30px;
+}
+
+.menu_list > li:hover {
+  color: var(--color-gray);
+}
+
+.menu_menu {
+                /* border: 1px solid blue; */
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  text-decoration: none;
+  background: lightgray;
+  margin: 20px;
+  padding: 10px 0px;
+  width: 200px;
+  box-shadow: 5px 10px var(--color-primary);
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+  overflow: auto;
+  z-index: 1;
+}
+
+.nav_services:hover .menu_menu,
+.nav_menu:hover .menu_menu {
+  display: block;
+}
+
+.menu_menu li a {
+              /* background: solid 10px blue; */
+  display: block;
+  text-align: left;
+  padding: 10px 20px;
+  color: var(--color-primary);
+  font-family: times;
+  font-size: 23px;
+}
+
+.menu_menu a:hover {
+                /* border: 1px solid green; */
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+@media (max-width:1025px) {
+  header {
+                  /* border: 5px solid red; */
+    display: block;
+    height: 210px;
+    /* position: fixed; */
+
+  }
+
+  .logo {
+                /* border: 1px solid yellow; */
+  display: block;
+  margin: auto;
+  }
+
+  .menu_list {
+                  /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    width: 100%;
+    font-size: 62px;
+  }
+
+  .menu_menu {
+                  /* border: 1px solid blue; */
+    margin: -10px 0 0 0 ;
+  }
+
+}
+
+/* **************************************************** */
+/******************* FOOTER CSS BELOW *******************/
+/* **************************************************** */
+footer {
+  border-top: 5px solid var(--color-primary);
+}
+
+.flex {
+  color: var(--color-primary);
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: lightgray;
+}
+
+.extras {
+                  /* border: 1px solid green; */
+  width: 100%;
+  padding: 0% 5% 0  2%;
+}
+
+.extras li{
+  list-style-type: none;
+}
+
+.contact_links a:hover {
+  color: #fff;
+}
+
+@media (max-width:1025px) {
+  .flex {
+                    /* border: 5px solid red; */
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* height: 210px; */
+    /* position: fixed; */
+
+  }

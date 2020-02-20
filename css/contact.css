@@ -1,0 +1,9 @@
+main {
+  background-color: lightgray;
+  background-image: url('../img/logos/White.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  text-align: center;
+}
