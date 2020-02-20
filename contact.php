@@ -7,6 +7,7 @@ include('inc/header.php');
   <h1>Get in touch with our team today</h1>
 
   <p>For professional catering throughout the West Midlands and Warwickshire in areas including Atherstone, Bedworth, Coventry, Leamington Spa, Nuneaton and Warwick, contact our friendly team to discuss your requirements via any of the methods on this page.</p>
+  <p>To discuss your catering needs for your wedding day with your local and friendly professional caterers, contact the team at Mr Chef.</p>
 
   <h3>Telephone:</h3>
   <p><a href="tel:02476453364">024 7645 3364</a></p>

@@ -83,8 +83,8 @@ nav {
   z-index: 1;
 }
 
-.nav_services:hover .menu_menu,
-.nav_menu:hover .menu_menu {
+.nav_events:hover .menu_menu,
+.nav_menus:hover .menu_menu {
   display: block;
 }
 
@@ -109,8 +109,6 @@ nav {
                   /* border: 5px solid red; */
     display: block;
     height: 210px;
-    /* position: fixed; */
-
   }
 
   .logo {

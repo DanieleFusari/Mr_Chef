@@ -19,7 +19,8 @@
       <nav>
         <ul class="menu_list">
           <li tabindex="2" ><a href="services.php">Services</a></li>
-          <li tabindex="3" class="nav_services">Events
+
+          <li tabindex="3" class="nav_events"><a href="events.php">Events</a>
             <ul class="menu_menu">
               <li><a href="events.php?event=wedding">Weddings</a></li>
               <li><a href="events.php?event=business">Business</a></li>
@@ -28,14 +29,14 @@
               <li><a href="events.php?event=funeral">Funerals</a></li>
             </ul>
           </li>
-          <li tabindex="4" class="nav_menu ">Menus
+          <li tabindex="4" class="nav_menus "><a href="menus.php">Menus</a>
             <ul class="menu_menu">
-              <li><a href="menu.php?menu=bbq">BBQ</a></li>
-              <li><a href="menu.php?menu=cold_finger">Cold Finger Buffet</a></li>
-              <li><a href="menu.php?menu=hot_fork">Hot Fork Buffet</a></li>
-              <li><a href="menu.php?menu=jacket_pot">Jacket Pot</a></li>
-              <li><a href="menu.php?menu=Hot">Pig Roast</a></li>
-              <li><a href="menu.php?menu=stu">Stu options</a></li>
+              <li><a href="menus.php?menu=bbq">BBQ</a></li>
+              <li><a href="menus.php?menu=cold_finger">Cold Finger Buffet</a></li>
+              <li><a href="menus.php?menu=hot_fork">Hot Fork Buffet</a></li>
+              <li><a href="menus.php?menu=jacket_pot">Jacket Pot</a></li>
+              <li><a href="menus.php?menu=Hot">Pig Roast</a></li>
+              <li><a href="menus.php?menu=stu">Stu options</a></li>
             </ul>
           </li>
           <li tabindex="5" ><a href="contact.php">Contact</a> </li>

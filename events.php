@@ -6,7 +6,7 @@ include('inc/services.php');
 $event = filter_input(INPUT_GET, 'event', FILTER_SANITIZE_STRING);
 
 if($services[$event] == null) {
-  header("Location:index.php");
+  header("Location:menus.php");
 }
 ?>
 

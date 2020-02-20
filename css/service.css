@@ -1,0 +1,44 @@
+#waitering_service,
+#free_delivery {
+    background: #fff;
+    font-family: var(--font-normal);
+}
+
+.wrapper {
+  margin: 30px;
+  padding: 20px;
+}
+
+#waitering_service h2,
+#free_delivery h2 {
+  font-family: var(--font-fancy);
+  color: var(--color-primary);
+  font-size: 50px;
+}
+
+#waitering_service .img_flex {
+                    /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+
+}
+
+#waitering_service .waiting_imgs {
+  border: 2px solid var(--color-primary);
+  flex: 1 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+#free_delivery img {
+  float: right;
+  border-radius: 3px;
+  margin: 20px;
+  width: 33%;
+  border: 2px solid var(--color-primary);
+}

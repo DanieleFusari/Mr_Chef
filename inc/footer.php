@@ -21,6 +21,9 @@
         </ul>
       </div>
     </footer>
-  <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <?php if (isset($js) ) { ?>
+      <script type="text/javascript" src="js/<?=$js?>.js"></script>
+    <?php } ?>
   </body>
 </html>
