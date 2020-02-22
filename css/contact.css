@@ -1,6 +1,6 @@
 main {
   font-size: 25px;
-  margin: 50px auto;
+  margin: 0;
   background: #fff;
   border-radius: 50px;
 }
@@ -38,4 +38,60 @@ main h1 {
   padding: 10px 50px 50px 50px;
   font-size: 20px;
   text-align: justify;
+}
+
+
+/* ********************************************** */
+/* *************** Mobile VERSION *************** */
+/* ********************************************** */
+
+@media (max-width:1025px) {
+  main {
+    border-radius: 0px;
+  }
+
+  main h1 {
+    padding: 20px;
+    margin: 0px;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .wrapper h3 {
+    color: var(--color-primary);
+    margin: 0;
+  }
+
+  .contacts {
+    display: block;
+    text-align: center;
+    padding: 1px;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+  }
+
+  .contacts .tel,
+  .contacts .email,
+  .contacts .address {
+    margin: 0px 0;
+    padding: 30px 0;
+  }
+
+  .wrapper p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .address {
+    order: -1;
+  }
+
+  .contact_p {
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+  }
 }

@@ -71,7 +71,7 @@ $menu = filter_input(INPUT_GET, 'menu', FILTER_SANITIZE_STRING);
 
         default:
           echo '
-          <h1><a href="tel:024 76453364"><b>Call:</b> 024 76453364</a></h1>
+          <h1><a href="tel:024 76453364">Call: </br>024 76453364</a></h1>
           <h1><a href="mailto:mrchefcatering@hotmail.com"><b>Email:</b>  mrchefcatering@hotmail.com</a></h1>
           <p>Buffets for all your special occasions</p>
           </br>
@@ -86,8 +86,8 @@ $menu = filter_input(INPUT_GET, 'menu', FILTER_SANITIZE_STRING);
           </br>
           <p>All our buffets are served with fine white china plates napkins and cutlery if required.</p>
           <h6>We can also supply you with a laying out tablecloth.</h6>
-
-          <b>No delivery charges.</b>';
+          </br>
+          <b>No Delivery Charges.</b>';
           break;
       } ?>
     </div> <!-- end menu_wrapper-->

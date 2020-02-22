@@ -1,5 +1,5 @@
-    <footer class="flex">
-      <div class="flex extras">
+    <footer>
+      <div class="extras">
         <img src="img/logos/Catering.png" alt="">
         <ul>
           <li>About us</li>

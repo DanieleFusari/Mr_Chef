@@ -32,25 +32,31 @@ include('inc/header.php');
   <div id="free_delivery">
     <div class="wrapper">
       <img src="img/services/free_delivery.jpg" alt="Free Delivery">
-      <h2>Free delivery to your door throughout the West Midlands!</h2>
+      <h2 class="wv">Free delivery to your door throughout the West Midlands!</h2>
+      <div class="mv">
+        <h2>Free Delivery,</h2>
+        <h3>Throughout the West Midlands!</h3>
+      </div>
 
-      <h3>We don’t charge for our delivery unlike lots of our competitors!</h3>
-      <p>Need more about free Delivery what it is about how it is transported. </p>
+      <div class="delivery_text">
+        <h3>We don’t charge for our delivery unlike lots of our competitors!</h3>
+        <p>Need more about free Delivery what it is about how it is transported. </p>
 
-      <h3>Pick-up and wash service.</h3>
-      <p>let us clear up afterwards to save you the time and effort, with our pick up and wash service in house</p>
+        <h3>Pick-up and wash service.</h3>
+        <p>let us clear up afterwards to save you the time and effort, with our pick up and wash service in house</p>
 
-      <h4>We Deliver To...</h4>
-      <ul>
-        <li>Leamington Spa</li>
-        <li>Nuneaton</li>
-        <li>Coventry</li>
-        <li>Kenilworth</li>
-        <li>North Warwick</li>
-        <li>Warwick</li>
-        <li>Your location not listed? We operate in and around Warwick
-  so give us a call to see if we can travel to you.</li>
-      </ul>
+        <h4>We Deliver To...</h4>
+        <ul>
+          <li>Leamington Spa</li>
+          <li>Nuneaton</li>
+          <li>Coventry</li>
+          <li>Kenilworth</li>
+          <li>North Warwick</li>
+          <li>Warwick</li>
+          <li>Your location not listed? We operate in and around Warwick
+    so give us a call to see if we can travel to you.</li>
+        </ul>
+      </div>
     </div>
   </div>
 

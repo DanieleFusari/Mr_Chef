@@ -28,7 +28,6 @@ header {
   width: 100%;
   height: 140px;
   display: flex;
-  border: 3px solid var(--color-gray);
   background: var(--color-primary);
   color: #fff;
   font-family: var(--font-fancy);
@@ -109,74 +108,122 @@ nav {
   color: #fff;
 }
 
-@media (max-width:1025px) {
-  header {
-                  /* border: 5px solid red; */
-    display: block;
-    height: 210px;
-  }
-
-  .logo {
-                /* border: 1px solid yellow; */
-  display: block;
-  margin: auto;
-  }
-
-  .menu_list {
-                  /* border: 1px solid green; */
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0px;
-    width: 100%;
-    font-size: 62px;
-  }
-
-  .menu_menu {
-                  /* border: 1px solid blue; */
-    margin: -10px 0 0 0 ;
-  }
-
-}
-
 /* **************************************************** */
 /******************* FOOTER CSS BELOW *******************/
 /* **************************************************** */
 footer {
   border-top: 5px solid var(--color-primary);
+  height: auto;
 }
 
-.flex {
-  color: var(--color-primary);
-  height: 110px;
+footer .extras {
+                  /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
   text-decoration: none;
+  height: 110px;
+
+  color: var(--color-primary);
   background-color: lightgray;
-}
-
-.extras {
-                  /* border: 1px solid green; */
   width: 100%;
-  padding: 0% 5% 0  2%;
+  padding: 0% 5% 0 2%;
 }
 
-.extras li{
+footer .extras li{
   list-style-type: none;
 }
 
-.contact_links a:hover {
+footer .contact_links a:hover {
   color: #fff;
 }
 
+/* **************************************************** */
+/******************* Mobile CSS BELOW *******************/
+/* **************************************************** */
+
 @media (max-width:1025px) {
-  .flex {
-                    /* border: 5px solid red; */
+  body {
+    min-width: 100%;
+    margin: 0;
+  }
+
+  header {
+                  /* border: 5px solid red; */
     display: block;
     width: 100%;
     height: auto;
+    background: var(--color-primary);
+    color: #fff;
+    font-family: var(--font-fancy);
+    font-size: 28px;
     text-align: center;
-    /* height: 210px; */
-    /* position: fixed; */
+  }
+
+  .logo {
+                /* border: 1px solid yellow; */
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin: auto;
+  }
+
+  nav {
+                  /* border: 1px solid green; */
+    max-width: 100%;
 
   }
+
+  .menu_list {
+                  /* border: 1px solid green; */
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .menu_list > li {
+    padding: 15px 0;
+  }
+
+  .menu_menu {
+                  /* border: 1px solid blue; */
+    left: 100px;
+  }
+
+
+  /* **************************************************** */
+  /******************* Mobile FOOTER CSS BELOW *******************/
+  /* **************************************************** */
+
+  footer .extras {
+    display: block;
+    height: auto;
+    margin: 0;
+    text-align: center;
+
+  }
+
+  .extras img {
+    display: none;
+  }
+
+  .extras ul:nth-child(2) {
+    margin: 0;
+  }
+
+  .extras ul + ul {
+    border-top: 3px solid var(--color-primary);
+  }
+
+  .extras li {
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px dashed var(--color-primary);
+  }
+
+  .extras ul:last-child li {
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+  }
+}

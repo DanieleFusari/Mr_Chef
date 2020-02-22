@@ -1,21 +1,3 @@
-/* ************************************************************* */
-/* **************** Over ride  CHANGES TO THE HEAD ********************* */
-/* ************************************************************* */
-
-.flex {
-  background-color: silver;
-}
-
-header {
-  border: none;
-}
-
-/* **************** END CHANGES TO THE HEAD ********************* */
-
-main {
-    margin: 0;
-}
-
 .margin_holder {
      color: lightgray;
  }
@@ -91,9 +73,34 @@ main {
 }
 
 
+/* ********************************************** */
+/* *************** Mobile VERSION *************** */
+/* ********************************************** */
+
 @media (max-width:1025px) {
-  .main_info_p {
-    font-size: 18px;
+  .main_img {
+     background-image: url('../img/hot_trays.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 600px;
+     margin: 0;
+   }
+
+  .contact {
+                      /* border: 1px solid green; */
+    width: 100%;
+    font-size: 26px;
+    margin: 10px 0 ;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0;
+  }
+
+  .main_info_wrapper {
+    width: 100%;
+    padding-top: 0px;
   }
 
   .main_info_img {
@@ -102,146 +109,22 @@ main {
     margin: auto;
   }
 
-
-}
-
-/* ***************************** NOT USSED ***************************** */
-/* ***************************** NOT USSED ***************************** */
-/* ***************************** NOT USSED ***************************** */
-
-
-/* @media (max-width:769px) {
-  #grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  .main_info_p::first-letter {
+    font-family: var(--font-fancy);
+    color: var(--color-primary);
+    font-size: 130px;
+    margin-right: 10px;
+    margin-left: 20px;
   }
 
-} */
+  .main_info_p {
+    font-family: var(--font-normal);
+    color: var(--color-primary);
+    font-size: 20px;
+    margin: 0px;
+    padding: 50px 20px;
+    line-height: 30px;
 
-
-/* main {
-  background-color: lightgray;
-  background-image: url('../img/logos/White.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: fill;
-  background-attachment: fixed;
-} */
-
-/* ***************************** drop in flyin ***************************** */
-
-/*
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(1500%);
-  }
-  100% {
-    transform: translateX(0);
+    font-size: 18px;
   }
 }
-
-.drop_in {
-                      border: 1px solid green;
-  font-size: 26px;
-  margin: 10px 0;
-  padding: 5px 0;
-  border-bottom-right-radius: 10px;
-  background: var(--color-primary);
-  color: #fff;
-  animation: 5s ease-out 0s slideInFromLeft;
-} */
-
-
-/* .drop_in:hover {
-  background: #fff;
-  color: var(--color-primary);
-}
-
-.email_dropin {
-  width: 330px;
-  transition: transform .5s ease-out;
-}
-.email_dropin:hover {
-  transform: translateX(50px);
-}
-
-.tel_dropin {
-  width: 190px;
-  transition: transform .5s ease-out;
-  transform-origin: left;
-}
-
-.tel_dropin:hover {
-  transform: scale(1.2);
-}
-
-.facebook_dropin {
-  width: 130px;
-  transition: transform .5s ease-out;
-}
-
-.facebook_dropin:hover {
-  width: 130px;
-  transform: skewX(-20deg);
-} */
-
-
-/* #grid {
-  max-width: 80%;
-  padding: 10px;
-  margin: 15px auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 20px;
-}
-
-.grid_containers {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 300px;
-  font-size: 18px;
-  margin: auto;
-  border-radius: 5px;
-  overflow: hidden;
-} */
-
-/* .img,
-.p {
-  width: 100%;
-  box-shadow: 0px 0px 15px var(--color-primary);
-  margin: auto;
-}
-
-.p {
-  background: var(--color-primary);
-  color: #fff;
-  margin: auto auto;
-  padding: 10%;
-  font-family: var(--font-normal);
-  font-size: 18px;
-  word-spacing: 5px;
-}
-
-.img {
-  transition: 2s;
-}
-
-.img:hover {
-  border-radius: 50%;
-}
-
-.blank {
-  border: none;
-  box-shadow: none;
-}
-
-@media (max-width:1025px) {
-  #grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-} */

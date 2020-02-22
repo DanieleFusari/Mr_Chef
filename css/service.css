@@ -4,9 +4,13 @@
     font-family: var(--font-normal);
 }
 
-.wrapper {
+#free_delivery .wrapper {
   margin: 30px;
   padding: 20px;
+}
+
+#free_delivery .wrapper .mv {
+  display: none;
 }
 
 #waitering_service h2,
@@ -41,4 +45,50 @@
   margin: 20px;
   width: 33%;
   border: 2px solid var(--color-primary);
+}
+
+
+/* ********************************************** */
+/* *************** Mobile VERSION *************** */
+/* ********************************************** */
+
+@media (max-width:1025px) {
+  #waitering_service .wrapper,
+  #free_delivery .wrapper {
+    margin: 0px;
+    padding: 20px;
+  }
+
+  #waitering_service .wrapper h2,
+  #free_delivery .wrapper h2 {
+    margin: 20px 0px 0px 0;
+    padding: 0;
+  }
+
+  #waitering_service .waiting_imgs {
+    flex-grow: 1;
+    max-width: 110px;
+    margin: 5px;
+  }
+
+  #free_delivery .wrapper .wv {
+    display: none;
+  }
+
+  #free_delivery .wrapper .mv {
+    display: inline;
+    color: var(--color-primary);
+  }
+
+  #free_delivery img {
+    float: right;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid var(--color-primary);
+  }
+
+  #free_delivery .delivery_text {
+    margin-top: 50px;
+  }
 }
