@@ -1,9 +1,41 @@
 main {
+  font-size: 25px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 50px;
+}
+
+main h1 {
+  font-family: var(--font-fancy);
+  color: var(--color-primary);
+  font-size: 80px;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 50px auto;
+  font-family: var(--font-normal);
+}
+
+.wrapper h3 {
+  color: var(--color-primary);
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
   background-color: lightgray;
-  background-image: url('../img/logos/White.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-  text-align: center;
+  padding-bottom: 30px;
+}
+
+.address {
+  order: -1;
+}
+
+.contact_p {
+  padding: 10px 50px 50px 50px;
+  font-size: 20px;
+  text-align: justify;
 }

@@ -9,19 +9,23 @@ $menu = filter_input(INPUT_GET, 'menu', FILTER_SANITIZE_STRING);
   <div id="dropdown">
     <select id="dropdown_menus" onchange="change_menu()" name="menus">
         <option value="select">--- Select a menu---</option>
-        <option <?php if ($menu == 'cold_finger') echo 'selected' ?> value="cold_finger">Cold Finger Buffet</option>
-        <option <?php if ($menu == 'hot_fork') echo 'selected' ?> value="hot_fork">Hot Fork Buffet</option>
-        <option <?php if ($menu == 'jacket_pot') echo 'selected' ?> value="jacket_pot">Jacket Pot</option>
-        <option <?php if ($menu == 'pig_roast') echo 'selected' ?> value="pig_roast">Pig Roast</option>
-        <option <?php if ($menu == 'stu') echo 'selected' ?> value="stu">Stu Options</option>
-        <option <?php if ($menu == 'wedding') echo 'selected' ?> value="wedding">Wedding Buffet</option>
+        <option <?php if ($menu == 'barbecue_ pig_roast') echo 'selected' ?> value="barbecue_ pig_roast ">Barbecue & Pig Roast</option>
+        <option <?php if ($menu == 'carved_buffet') echo 'selected' ?> value="carved_buffet">Carved Buffet</option>
+        <option <?php if ($menu == 'combined_portioned_finger_carved') echo 'selected' ?> value="combined_portioned_finger_carved">Combined Portioned finger & carved</option>
+        <option <?php if ($menu == 'delux_combined_portioned_finger_carved') echo 'selected' ?> value="delux_combined_portioned_finger_carved">Delux Combined Portioned finger & carved</option>
+        <option <?php if ($menu == 'hot_food_option_a') echo 'selected' ?> value="hot_food_option_a">Hot Food Option A</option>
+        <option <?php if ($menu == 'hot_food_option_b') echo 'selected' ?> value="hot_food_option_b">Hot Food Option B</option>
+        <option <?php if ($menu == 'plated_dinner_service') echo 'selected' ?> value="portioned_finger_buffet_baisc_delux">Plated Dinner Service</option>
+        <option <?php if ($menu == 'portioned_finger_buffet_baisc_delux') echo 'selected' ?> value="stu">Portioned Finger Buffet. (Baisc & Delux)</option>
+        <option <?php if ($menu == 'starters ') echo 'selected' ?> value="starters ">Starters</option>
+        <option <?php if ($menu == 'wedding_buffet') echo 'selected' ?> value="wedding_buffet">Wedding Buffet</option>
     </select>
   </div>
   <div id="menu">
     <div class="menu_wrapper">
       <img src="img/logos/Black_Red.jpg" alt="Mr Chef logo">
       <?php switch ($menu) {
-        case 'wedding':
+        case 'wedding_buffet':
           echo '
           <h1>The Wedding Buffet</h1>
           </br>

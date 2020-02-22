@@ -20,7 +20,7 @@
         <ul class="menu_list">
           <li tabindex="2" ><a href="services.php">Services</a></li>
 
-          <li tabindex="3" class="nav_events"><a href="events.php">Events</a>
+          <li tabindex="3" class="nav_events">Events
             <ul class="menu_menu">
               <li><a href="events.php?event=wedding">Weddings</a></li>
               <li><a href="events.php?event=business">Business</a></li>
@@ -31,13 +31,16 @@
           </li>
           <li tabindex="4" class="nav_menus "><a href="menus.php">Menus</a>
             <ul class="menu_menu">
-              <li><a href="menus.php?menu=bbq">BBQ</a></li>
-              <li><a href="menus.php?menu=cold_finger">Cold Finger Buffet</a></li>
-              <li><a href="menus.php?menu=hot_fork">Hot Fork Buffet</a></li>
-              <li><a href="menus.php?menu=jacket_pot">Jacket Pot</a></li>
-              <li><a href="menus.php?menu=Hot">Pig Roast</a></li>
-              <li><a href="menus.php?menu=stu">Stu options</a></li>
-              <li><a href="menus.php?menu=wedding">Wedding Buffet</a></li>
+              <li><a href="menus.php?menu=barbecue_ pig_roast">Barbecue & Pig Roast</a></li>
+              <li><a href="menus.php?menu=carved_buffet">Carved Buffet</a></li>
+              <li><a href="menus.php?menu=combined_portioned_finger_carved">Combined Portioned finger & carved</a></li>
+              <li><a href="menus.php?menu=delux_combined_portioned_finger_carved">Delux Combined Portioned finger & carved</a></li>
+              <li><a href="menus.php?menu=hot_food_option_a">Hot Food Option A</a></li>
+              <li><a href="menus.php?menu=hot_food_option_b">Hot Food Option B</a></li>
+              <li><a href="menus.php?menu=plated_dinner_service">Plated Dinner Service</a></li>
+              <li><a href="menus.php?menu=portioned_finger_buffet_baisc_delux">Portioned Finger Buffet. (Baisc & Delux)</a></li>
+              <li><a href="menus.php?menu=starters ">Starters</a></li>
+              <li><a href="menus.php?menu=wedding_buffet">Wedding Buffet</a></li>
             </ul>
           </li>
           <li tabindex="5" ><a href="contact.php">Contact</a> </li>
