@@ -85,6 +85,10 @@ main {
   padding: 1px;
 }
 
+.section4 .wrapper  h3{
+  text-align: center;
+}
+
 .section4 .wrapper ol {
   color: var(--color-primary);
   margin: 40px auto;
@@ -109,10 +113,41 @@ main {
   margin-top: 10px;
 }
 
+.section5 {
+  text-align: center;
+}
+
+.section5 .wrapper h3 {
+  font-size: 70px;
+  margin: 0 0 20px 0 ;
+  font-family: var(--font-fancy);
+  color: var(--color-primary);
+}
+
+.section5 .suggested_menus {
+  font-size: 20px;
+  font-family: var(--font-normal);
+  list-style-type: upper-roman;
+}
+
+.section5 .suggested_menus .link {
+  padding-left: 30px;
+  font-family: var(--font-fancy);
+  color: blue;
+}
+
+.section5 .suggested_menus .link:hover {
+  color: var(--color-primary);
+}
 
 
-.section4 .wrapper p {
-  margin: 60px;
+.section6 {
+  margin: 100px 70px;
+}
+
+.section6 .wrapper p {
   padding: 1px;
   color: 	#606060;
+  font-size: 20px;
+  font-style: italic;
 }

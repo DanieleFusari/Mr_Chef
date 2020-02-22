@@ -2,10 +2,10 @@
 $link = "/css/events.css";
 $title = "Mr Chef Events";
 include('inc/header.php');
-include('inc/services.php');
+include('inc/events.php');
 $event = filter_input(INPUT_GET, 'event', FILTER_SANITIZE_STRING);
 
-if($services[$event] == null) {
+if($events[$event] == null) {
   header("Location:menus.php");
 }
 ?>
@@ -13,20 +13,20 @@ if($services[$event] == null) {
 <main>
   <span class="margin_holder">.</span>
 
-  <div class="section1" style="background-image:url('../img/<?= $services[$event]['service_img']?>')">
-    <h1><?= $services[$event]['service'];?></h1>
+  <div class="section1" style="background-image:url('../img/<?= $events[$event]['service_img']?>')">
+    <h1><?= $events[$event]['service'];?></h1>
   </div>
 
   <div class="section2">
-    <h3><?= $services[$event]['service'];?> Catering</h3>
-    <?php foreach ($services[$event]['intro'] as $value): ?>
+    <h3><?= $events[$event]['service'];?> Catering</h3>
+    <?php foreach ($events[$event]['intro'] as $value): ?>
       <p><?= $value ?></p>
     <?php endforeach; ?>
   </div>
 
   <div class="section3">
     <div class="images">
-      <?php foreach ($services[$event]['img'] as $value): ?>
+      <?php foreach ($events[$event]['img'] as $value): ?>
         <img src="img/<?=$value['img']?>" alt="<?=$value['alt']?>" >
       <?php endforeach; ?>
     </div>
@@ -34,18 +34,32 @@ if($services[$event] == null) {
 
   <div class="section4">
     <div class="wrapper">
-      <h3><?= $services[$event]['menu_option']?></h3>
+      <h3><?= $events[$event]['menu_option']?></h3>
       <ol>
-        <?php foreach ($services[$event]['option'] as $value): ?>
+        <?php foreach ($events[$event]['option'] as $value): ?>
           <li><?=$value['title']?><span class="extra"><?=$value['info'];?></span></li>
         <?php endforeach; ?>
       </ol>
+    </div> <!--wrapper  end-->
+  </div> <!--section 4  end-->
 
-      <?php foreach ($services[$event]['end'] as $value): ?>
+  <div class="section5">
+    <div class="wrapper">
+      <h3>Suggested Menus</h3>
+      <?php foreach ($events[$event]['suggested_menus'] as $value): ?>
+        <li class="suggested_menus"><?=$value['menu']?><a class="link" href="<?=$value['download']?>">Download</a> <a class="link" href="<?=$value['link']?>">View</a></li>
+      <?php endforeach; ?>
+    </div> <!--wrapper  end-->
+  </div> <!--section 6 end-->
+
+  <div class="section6">
+    <div class="wrapper">
+      <?php foreach ($events[$event]['end'] as $value): ?>
         <p><?=$value?></p>
       <?php endforeach; ?>
     </div> <!--wrapper  end-->
-  </div> <!--section 4  end-->
+  </div> <!--section 5  end-->
+
   <span class="margin_holder">.</span>
 </main>
 

@@ -37,6 +37,7 @@
               <li><a href="menus.php?menu=jacket_pot">Jacket Pot</a></li>
               <li><a href="menus.php?menu=Hot">Pig Roast</a></li>
               <li><a href="menus.php?menu=stu">Stu options</a></li>
+              <li><a href="menus.php?menu=wedding">Wedding Buffet</a></li>
             </ul>
           </li>
           <li tabindex="5" ><a href="contact.php">Contact</a> </li>

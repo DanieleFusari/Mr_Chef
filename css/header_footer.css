@@ -68,7 +68,7 @@ nav {
 
 .menu_menu {
                 /* border: 1px solid blue; */
-  display: none;
+  /* display: none; */
   position: absolute;
   list-style-type: none;
   text-decoration: none;
@@ -80,12 +80,17 @@ nav {
   border-bottom-left-radius: 10%;
   border-top-right-radius: 10%;
   overflow: auto;
-  z-index: 1;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .nav_events:hover .menu_menu,
 .nav_menus:hover .menu_menu {
-  display: block;
+  /* display: block; */
+  z-index: 2;
+  opacity: 1;
+
 }
 
 .menu_menu li a {

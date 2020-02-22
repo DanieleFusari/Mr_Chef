@@ -9,10 +9,10 @@ include('inc/header.php');
   <div id="waitering_service">
     <div class="wrapper">
       <div class="img_flex">
-        <img class="waiting_imgs" src="img/waitter.jpg" alt="Waitering staff">
-        <img class="waiting_imgs" src="img/waitting_staff.jpg" alt="Waitter staff">
-        <img class="waiting_imgs" src="img/waitting_staff_drinks.jpg" alt="waitter staff drinks">
-        <img class="waiting_imgs" src="img/waitting_staff_coffie.jpg" alt="waitter staff coffie">
+        <img class="waiting_imgs" src="img/services/waitter.jpg" alt="Waitering staff">
+        <img class="waiting_imgs" src="img/services/waitting_staff.jpg" alt="Waitter staff">
+        <img class="waiting_imgs" src="img/services/waitting_staff_drinks.jpg" alt="waitter staff drinks">
+        <img class="waiting_imgs" src="img/services/waitting_staff_coffie.jpg" alt="waitter staff coffie">
       </div>
 
       <h2>Waiter Service</h2>
@@ -31,7 +31,7 @@ include('inc/header.php');
 
   <div id="free_delivery">
     <div class="wrapper">
-      <img src="img/free_delivery.jpg" alt="Free Delivery">
+      <img src="img/services/free_delivery.jpg" alt="Free Delivery">
       <h2>Free delivery to your door throughout the West Midlands!</h2>
 
       <h3>We don’t charge for our delivery unlike lots of our competitors!</h3>

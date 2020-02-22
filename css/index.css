@@ -73,15 +73,14 @@ main {
   margin: 30px;
 }
 
-.first_letter {
+.main_info_p::first-letter {
   font-family: var(--font-fancy);
   color: var(--color-primary);
-  font-size: 150px;
-  margin: 20px 20px 0 30px;
-  padding: 10px;
-  /* float: left; */
-
+  font-size: 130px;
+  margin-right: 10px;
+  margin-left: 50px;
 }
+
 .main_info_p {
   font-family: var(--font-normal);
   color: var(--color-primary);
