@@ -24,7 +24,7 @@ include('inc/header.php');
       Bilton Industrial Estate</br>
       Humber Avene</br>
       Coventry</br>
-      CV3 1 JL
+      CV3 1JL
       </address>
     </div>
 

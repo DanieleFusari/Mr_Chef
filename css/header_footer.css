@@ -7,7 +7,6 @@
   --color-gray: #606060;
   --font-normal: 'Trirong', serif;
   --font-fancy: 'Italianno', cursive;
-
 }
 
 body {
@@ -185,6 +184,10 @@ footer .contact_links a:hover {
     padding: 15px 0;
   }
 
+  .menu_list li a {
+    padding-bottom: 20px;
+  }
+
   .menu_menu {
                   /* border: 1px solid blue; */
     left: 100px;
@@ -199,6 +202,7 @@ footer .contact_links a:hover {
     display: block;
     height: auto;
     margin: 0;
+    padding: 0;
     text-align: center;
 
   }
@@ -207,8 +211,9 @@ footer .contact_links a:hover {
     display: none;
   }
 
-  .extras ul:nth-child(2) {
-    margin: 0;
+  .extras ul {
+    margin: 0  20px;
+    padding: 0 50px;
   }
 
   .extras ul + ul {
@@ -219,6 +224,10 @@ footer .contact_links a:hover {
     padding: 10px 0;
     margin: 0;
     border-bottom: 1px dashed var(--color-primary);
+  }
+
+  .extras li:last-child {
+    border-bottom: none;
   }
 
   .extras ul:last-child li {

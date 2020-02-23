@@ -20,7 +20,7 @@
         <ul class="menu_list">
           <li tabindex="2" ><a href="services.php">Services</a></li>
 
-          <li tabindex="3" class="nav_events">Events
+          <li tabindex="3" class="nav_events"><a href="#">Events</a>
             <ul class="menu_menu">
               <li><a href="events.php?event=wedding">Weddings</a></li>
               <li><a href="events.php?event=business">Business</a></li>

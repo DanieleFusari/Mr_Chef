@@ -71,7 +71,7 @@ $menu = filter_input(INPUT_GET, 'menu', FILTER_SANITIZE_STRING);
 
         default:
           echo '
-          <h1><a href="tel:024 76453364">Call: </br>024 76453364</a></h1>
+          <h1><a href="tel:024 76453364">Call:</br>024 76453364</a></h1>
           <h1><a href="mailto:mrchefcatering@hotmail.com"><b>Email:</b>  mrchefcatering@hotmail.com</a></h1>
           <p>Buffets for all your special occasions</p>
           </br>
