@@ -54,6 +54,21 @@ $events['wedding'] = [
   ],
   'suggested_menus' => [
     [
+      'menu' => 'The Plated Meal menu',
+      'link' => 'menus.php?menu=plated_dinner_service',
+      'download' => 'inc/downloads/plated_dinner_service.pdf'
+    ],
+    [
+      'menu' => 'The Plated Meal menu',
+      'link' => 'menus.php?menu=plated_dinner_service',
+      'download' => 'inc/downloads/plated_dinner_service.pdf'
+    ],
+    [
+      'menu' => 'The Buffet menu',
+      'link' => 'menus.php?menu=wedding_buffet',
+      'download' => 'inc/downloads/wedding.pdf'
+    ],
+    [
       'menu' => 'The Wedding Buffet',
       'link' => 'menus.php?menu=wedding_buffet',
       'download' => 'inc/downloads/wedding.pdf'
