@@ -5,30 +5,6 @@ include('inc/header.php');
 ?>
 
 <main>
-
-  <div id="waitering_service">
-    <div class="wrapper">
-      <div class="img_flex">
-        <img class="waiting_imgs" src="img/services/waitter.jpg" alt="Waitering staff">
-        <img class="waiting_imgs" src="img/services/waitting_staff.jpg" alt="Waitter staff">
-        <img class="waiting_imgs" src="img/services/waitting_staff_drinks.jpg" alt="waitter staff drinks">
-        <img class="waiting_imgs" src="img/services/waitting_staff_coffie.jpg" alt="waitter staff coffie">
-      </div>
-
-      <h2>Waiter Service</h2>
-      <h3>A specialist team of waiting staff available for hire</h3>
-      <p>Book sooner rather than later to avoid any disappointment! </p>
-
-      <h3>Waiting hire staff available</h3>
-      <p>Get rid of the stress of finding waiting staff elsewhere, and use our highly qualified in house staff! No-one knows our products better, and can provide the service quite like us.</p>
-
-      <h3>Free delivery to your door throughout the West Midlands!</h3>
-      <p>We don’t charge for our delivery unlike lots of our competitors!</p>
-    </div>
-  </div>
-
-  <hr>
-
   <div id="free_delivery">
     <div class="wrapper">
       <img src="img/services/free_delivery.jpg" alt="Free Delivery">
@@ -57,6 +33,51 @@ include('inc/header.php');
     so give us a call to see if we can travel to you.</li>
         </ul>
       </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="waitering_service">
+    <div class="wrapper">
+      <div class="img_flex">
+        <img class="waiting_imgs" src="img/services/waitter.jpg" alt="Waitering staff">
+        <img class="waiting_imgs" src="img/services/waitting_staff.jpg" alt="Waitter staff">
+        <img class="waiting_imgs" src="img/services/waitting_staff_drinks.jpg" alt="waitter staff drinks">
+        <img class="waiting_imgs" src="img/services/waitting_staff_coffie.jpg" alt="waitter staff coffie">
+      </div>
+
+      <h2>Waiter Service</h2>
+      <h3>A specialist team of waiting staff available for hire</h3>
+      <p>Book sooner rather than later to avoid any disappointment! </p>
+
+      <h3>Waiting hire staff available</h3>
+      <p>Get rid of the stress of finding waiting staff elsewhere, and use our highly qualified in house staff! No-one knows our products better, and can provide the service quite like us.</p>
+
+      <h3>Free delivery to your door throughout the West Midlands!</h3>
+      <p>We don’t charge for our delivery unlike lots of our competitors!</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="waitering_service">
+    <div class="wrapper">
+      <div class="img_flex">
+        <img class="waiting_imgs" src="img/services/plate.jpg" alt="plate">
+        <img class="waiting_imgs" src="img/services/table_dinner_set.jpg" alt="Waitter staff">
+        <img class="waiting_imgs" src="img/services/table_set.jpg" alt="table dinner set">
+      </div>
+
+      <h2>Hire of Cutlery </h2>
+      <h3>We have everything from trays, to canapé spoons, to wooden boards and terracotta ashtrays in stock, ready for you at our warehouse.</h3>
+      <p>Book sooner rather than later to avoid any disappointment! </p>
+
+      <h3>Dinner Plates</h3>
+      <p>Wedgwood dinner plates are produced using fine bone china; an incredibly pure, translucent, strong and durable material, that forms the perfect canvas for our artists designs. The exception being earthenware based creamware which produces a luxuriously rich, cream colour that has been mastered and refined since the 18th century.</p>
+
+      <h3>Festive table arrangement.</h3>
+      <p>This classic, elegant dinnerware set will fit into a festive table arrangement.</p>
     </div>
   </div>
 

@@ -26,20 +26,22 @@
               <li><a href="events.php?event=business">Business</a></li>
               <li><a href="events.php?event=barbecue">Barbecue</a></li>
               <li><a href="events.php?event=special">Special Occasion</a></li>
+              <li><a href="events.php?event=packed_lunches">Packed Lunches</a></li>
               <li><a href="events.php?event=funeral">Funerals</a></li>
             </ul>
           </li>
           <li tabindex="4" class="nav_menus "><a href="menus.php">Menus</a>
             <ul class="menu_menu">
-              <li><a href="menus.php?menu=barbecue_ pig_roast">Barbecue & Pig Roast</a></li>
+              <li><a href="menus.php?menu=barbecue">Barbecue</a></li>
+              <li><a href="menus.php?menu=pig_roast">Pig Roast</a></li>
               <li><a href="menus.php?menu=carved_buffet">Carved Buffet</a></li>
               <li><a href="menus.php?menu=combined_portioned_finger_carved">Combined Portioned finger & carved</a></li>
-              <li><a href="menus.php?menu=delux_combined_portioned_finger_carved">Delux Combined Portioned finger & carved</a></li>
-              <li><a href="menus.php?menu=hot_food_option_a">Hot Food Option A</a></li>
-              <li><a href="menus.php?menu=hot_food_option_b">Hot Food Option B</a></li>
+              <li><a href="menus.php?menu=deluxe_combined_portioned_finger_carved">Combined Portioned finger & carved. Deluxe</a></li>
+              <li><a href="menus.php?menu=hot_food_menu">Hot Food</a></li>
               <li><a href="menus.php?menu=plated_dinner_service">Plated Dinner Service</a></li>
-              <li><a href="menus.php?menu=portioned_finger_buffet_baisc_delux">Portioned Finger Buffet. (Baisc & Delux)</a></li>
-              <li><a href="menus.php?menu=starters ">Starters</a></li>
+              <li><a href="menus.php?menu=portioned_finger_buffet">Portioned Finger Buffet.</a></li>
+              <li><a href="menus.php?menu=deluxe_portioned_finger_buffet">Portioned Finger Buffet. Deluxe</a></li>
+              <li><a href="menus.php?menu=jacket_potato">Jacket Potato</a></li>
               <li><a href="menus.php?menu=wedding_buffet">Wedding Buffet</a></li>
             </ul>
           </li>

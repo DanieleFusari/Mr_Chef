@@ -11,14 +11,13 @@ if($events[$event] == null) {
 ?>
 
 <main>
-  <span class="margin_holder">.</span>
 
   <div class="section1" style="background-image:url('../img/<?= $events[$event]['service_img']?>')">
     <h1><?= $events[$event]['service'];?></h1>
   </div>
 
   <div class="section2">
-    <h3><?= $events[$event]['service'];?> Catering</h3>
+    <h3><?= $events[$event]['service']?> Catering</h3>
     <?php foreach ($events[$event]['intro'] as $value): ?>
       <p><?= $value ?></p>
     <?php endforeach; ?>
@@ -47,7 +46,7 @@ if($events[$event] == null) {
     <div class="wrapper">
       <h3>Suggested Menus</h3>
       <?php foreach ($events[$event]['suggested_menus'] as $value): ?>
-        <li class="suggested_menus"><?=$value['menu']?><a class="link" href="<?=$value['download']?>">Download</a> <a class="link" href="<?=$value['link']?>">View</a></li>
+        <li class="suggested_menus"><?=$value['menu']?><a class="link" href="<?=$value['download']?>" download="<?=$value['menu']?>">Download</a> <a class="link" href="<?=$value['link']?>">View</a></li>
       <?php endforeach; ?>
     </div> <!--wrapper  end-->
   </div> <!--section 6 end-->
@@ -60,7 +59,6 @@ if($events[$event] == null) {
     </div> <!--wrapper  end-->
   </div> <!--section 5  end-->
 
-  <span class="margin_holder">.</span>
 </main>
 
 <?php include('inc/footer.php')?>

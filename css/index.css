@@ -3,12 +3,12 @@
  }
 
 .main_img {
-   background-image: url('../img/hot_trays.jpg');
+   background-image: url('../img/home_slider/hot_trays.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
-   height: 600px;
+   height: 500px;
    margin: 0;
  }
 
@@ -53,6 +53,7 @@
 .main_info_img {
   float: right;
   margin: 30px;
+  width: 20%;
 }
 
 .main_info_p::first-letter {
@@ -72,6 +73,12 @@
   line-height: 50px;
 }
 
+#more {
+  font-style: italic;
+  font-size: 13px;
+  color: blue;
+}
+
 
 /* ********************************************** */
 /* *************** Mobile VERSION *************** */
@@ -79,13 +86,7 @@
 
 @media (max-width:1025px) {
   .main_img {
-     background-image: url('../img/hot_trays.jpg');
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     background-attachment: fixed;
-     height: 600px;
-     margin: 0;
+     background-attachment: local;
    }
 
   .contact {

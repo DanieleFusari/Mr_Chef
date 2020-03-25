@@ -1,16 +1,14 @@
     <footer>
       <div class="extras">
         <img src="img/logos/Catering.png" alt="">
-        <ul>
-          <li>About us</li>
-          <li>About us</li>
-          <li>Terms & Conditions.</li>
+        <ul class="contact_links">
+          <li><a href="about.php">About us</a></li>
+          <li><a href="tc.php">Terms & Conditions</a></li>
         </ul>
         <ul class="contact_links">
           <li><a href="tel:02476453364">024 7645 3364</a></li>
           <li><a href="mailto:mrchefcatering@hotmail.com">mrchefcatering@hotmail.com</a></li>
-          <li><a  target="_blank" href="https://twitter.com/">Twitter</a></li>
-          <li><a  target="_blank" href="https://www.facebook.com/mrchefcateringcoventry/">Face Book </a></li>
+          <li><a  target="_blank" href="https://www.facebook.com/pages/category/Caterer/Mr-Chef-Catering-104908841116676/">Facebook</a></li>
         </ul>
         <ul>
           <li>Unit 9 Building 16</li>

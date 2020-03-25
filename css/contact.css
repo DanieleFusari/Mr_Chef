@@ -1,16 +1,14 @@
 main {
   font-size: 25px;
-  margin: 0;
   background: #fff;
-  border-radius: 50px;
+  padding: 1%;
 }
 
 main h1 {
   font-family: var(--font-fancy);
   color: var(--color-primary);
   font-size: 80px;
-  padding: 30px;
-  margin-left: 30px;
+  margin: 30px;
 }
 
 .wrapper {

@@ -1,12 +1,6 @@
 main {
-  width: 100%;
-  margin: auto;
   background: #fff;
-  border-radius: 15px;
-}
-
-.margin_holder {
-  color: #fff;
+  padding: 1%;
 }
 
 .section1,
@@ -18,14 +12,14 @@ main {
     margin: 20px 50px 50px;
  }
 
- .section1 {
+.section1 {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    height: 200px;
  }
 
- .section1 h1 {
+.section1 h1 {
    color: #fff;
    font-size: 138px;
    font-family: var(--font-fancy);
@@ -34,7 +28,7 @@ main {
    margin: 0;
  }
 
- .section2 {
+.section2 {
    color: var(--color-primary);
    font-family: var(--font-normal);
 }

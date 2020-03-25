@@ -55,8 +55,8 @@ $events['wedding'] = [
   'suggested_menus' => [
     [
       'menu' => 'The Wedding Buffet',
-      'link' => 'menus.php',
-      'download' => ' '
+      'link' => 'menus.php?menu=wedding_buffet',
+      'download' => 'inc/downloads/wedding.pdf'
     ]
   ],
   'end' => ['Had a look at our example menus but just aren\'t right for you? Not to worry – we love working closely with clients to create bespoke tailor made menus unique to every client and wedding. We can add in or take out any menu options and therefore make your wedding special. Want an all vegan menu? Love French food? Gluten free? Get in touch today so we can have a full consultation and discussion on your wedding menus', 'Overall, we are a team of highly qualified chefs who prepare, cook, deliver, set up and clear away our buffets.']
@@ -124,19 +124,9 @@ $events['business'] = [
   ],
   'suggested_menus' => [
     [
-      'menu' => '????',
-      'link' => 'menus.php',
-      'download' => ' '
-    ],
-    [
-      'menu' => '????',
-      'link' => 'menus.php',
-      'download' => ' '
-    ],
-    [
-      'menu' => '????',
-      'link' => 'menus.php',
-      'download' => ' '
+      'menu' => 'Please call 02476 453364',
+      'link' => 'tel:02476453364',
+      'download' => 'tel:02476453364 '
     ]
   ],
   'end' => ['All of our food is prepared and made freshly for your function, which is why we can offer the service of building you your own unique menus. Fancy something a bit different? Why not try our range of packed lunches as an efficient and fun alternative? Take away some of the stress of your corporate event and let us do the work in the kitchen. We can ensure that your event flows smoothly by having all food ready at once for your guests to enjoy.']
@@ -197,8 +187,13 @@ $events['barbecue'] = [
   'suggested_menus' => [
     [
       'menu' => 'BBQ',
-      'link' => 'menus.php',
-      'download' => ' '
+      'link' => 'menus.php?menu=barbecue',
+      'download' => 'inc/downloads/barbecue.pdf'
+    ],
+    [
+      'menu' => 'Pig Roast',
+      'link' => 'menus.php?menu=pig_roast',
+      'download' => 'inc/downloads/pig_roast.pdf'
     ]
   ],
   'end' => ['', '']
@@ -336,8 +331,8 @@ $events['special'] = [
   ],
   'suggested_menus' => [
     [
-      'menu' => 'The Wedding Buffet',
-      'link' => 'menus.php',
+      'menu' => ' ',
+      'link' => '',
       'download' => ' '
     ]
   ],

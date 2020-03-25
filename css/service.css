@@ -4,7 +4,7 @@
     font-family: var(--font-normal);
 }
 
-#free_delivery .wrapper {
+.wrapper {
   margin: 30px;
   padding: 20px;
 }
