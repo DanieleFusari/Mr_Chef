@@ -53,9 +53,9 @@ $menu = filter_input(INPUT_GET, 'menu', FILTER_SANITIZE_STRING);
               echo "<a id='download' href='inc/downloads/$menu.pdf' download=$menu>Download</a>";
               break;
           case 'plated_dinner_service':
-          echo "<img class='menu_jpg' src='inc/downloads/plated_dinner_service.jpg'>";
-          echo "<img class='menu_jpg' src='inc/downloads/plated_dinner_service_main.jpg'>";
-          echo "<img class='menu_jpg' src='inc/downloads/plated_dinner_service_main_desserts.jpg'>";
+          echo "<img class='menu_jpg' id='starter' src='inc/downloads/plated_dinner_service.jpg'>";
+          echo "<img class='menu_jpg' id='main' src='inc/downloads/plated_dinner_service_main.jpg'>";
+          echo "<img class='menu_jpg' id='desert' src='inc/downloads/plated_dinner_service_main_desserts.jpg'>";
           echo "<a id='download' href='inc/downloads/plated_dinner_service.pdf' download=plated_dinner_service>Download Starter</a>";
           echo "<a id='download' href='inc/downloads/plated_dinner_service_main.pdf' download=plated_dinner_service_main>Download Main</a>";
           echo "<a id='download' href='inc/downloads/plated_dinner_service_main_desserts.pdf' download=plated_dinner_service_main_desserts>Download Desserts</a>";
