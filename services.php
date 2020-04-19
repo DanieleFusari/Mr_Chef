@@ -8,15 +8,16 @@ include('inc/header.php');
   <div id="free_delivery">
     <div class="wrapper">
       <img src="img/services/free_delivery.jpg" alt="Free Delivery">
-      <h2 class="wv">Free delivery to your door throughout the West Midlands!</h2>
-      <div class="mv">
         <h2>Free Delivery,</h2>
-        <h3>Throughout the West Midlands!</h3>
-      </div>
+        <h3 class="red">Throughout the West Midlands!</h3>
 
       <div class="delivery_text">
         <h3>We don’t charge for our delivery unlike lots of our competitors!</h3>
-        <p>Need more about free Delivery what it is about how it is transported. </p>
+        <p>All our vehicles are bespoke purely for the food delivery service and are cleaned out daily after use.
+Hot food is transported in insulated food boxes to ensure food is piping hot on arrival.
+All food items transported in Mr chef delivery crates double wrapped and labelled to eliminate any allergenic contamination and keeping the food fresh.
+Specific dietary food is always kept separate and labelled individually to ensure all dietary needs are catered for.
+All chilled food is prepared then stored in the fridge until ready for delivery to maintain freshness. </p>
 
         <h3>Pick-up and wash service.</h3>
         <p>let us clear up afterwards to save you the time and effort, with our pick up and wash service in house</p>
@@ -69,12 +70,12 @@ include('inc/header.php');
         <img class="waiting_imgs" src="img/services/table_set.jpg" alt="table dinner set">
       </div>
 
-      <h2>Hire of Cutlery </h2>
+      <h2>Hire of Equipment </h2>
       <h3>We have everything from trays, to canapé spoons, to wooden boards and terracotta ashtrays in stock, ready for you at our warehouse.</h3>
       <p>Book sooner rather than later to avoid any disappointment! </p>
 
       <h3>Dinner Plates</h3>
-      <p>Wedgwood dinner plates are produced using fine bone china; an incredibly pure, translucent, strong and durable material, that forms the perfect canvas for our artists designs. The exception being earthenware based creamware which produces a luxuriously rich, cream colour that has been mastered and refined since the 18th century.</p>
+      <p>We can hire crockery, cutlery, cups and saucers, glasses, water jugs</p>
 
       <h3>Festive table arrangement.</h3>
       <p>This classic, elegant dinnerware set will fit into a festive table arrangement.</p>

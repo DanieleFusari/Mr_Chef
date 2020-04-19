@@ -26,7 +26,7 @@
               <li><a href="events.php?event=business">Business</a></li>
               <li><a href="events.php?event=barbecue">Barbecue</a></li>
               <li><a href="events.php?event=special">Special Occasion</a></li>
-              <li><a href="events.php?event=packed_lunches">Packed Lunches</a></li>
+              <!-- <li><a href="events.php?event=packed_lunches">Packed Lunches</a></li> -->
               <li><a href="events.php?event=funeral">Funerals</a></li>
             </ul>
           </li>

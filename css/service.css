@@ -20,6 +20,12 @@
   font-size: 50px;
 }
 
+.red {
+  color: var(--color-primary);
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
 #waitering_service .img_flex {
                     /* background: red; */
   display: flex;
@@ -69,15 +75,6 @@
     flex-grow: 1;
     max-width: 110px;
     margin: 5px;
-  }
-
-  #free_delivery .wrapper .wv {
-    display: none;
-  }
-
-  #free_delivery .wrapper .mv {
-    display: inline;
-    color: var(--color-primary);
   }
 
   #free_delivery img {

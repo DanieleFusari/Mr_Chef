@@ -155,7 +155,7 @@ $events['business'] = [
 $events['barbecue'] = [
   'service' => 'Barbecue',
   'service_img' => 'barbecue/flame_gril.jpg',
-  'intro' => ['The team here at Mr Chef are able to offer fantastic, tasty buffets on any scale you require, whether you go for a simple cold buffet, or one of our elaborate menus. We boast a wide range of options, from high quality carved meats, to luxury vol-au-vents.','We offer this range of delicious hot/cold food for any event that you may require catering for. With a collective 25 years plus of experience and knowledge within the industry, we have built an enviable reputation with a large number of repeat customers. We are well known across the West Midlands and Warwickshire, and are the professional caterers here to provide you with an excellent service.'],
+  'intro' => ['The team here at Mr Chef are able to offer fantastic, tasty buffets on any scale you require, whether you go for a simple cold buffet, or one of our elaborate menus. We boast a wide range of options, from high quality carved meats, to luxury vol-au-vents.','We offer this range of delicious hot/cold food for any event that you may require catering for. With a collective 25 years plus of experience and knowledge within the industry, we have built an enviable reputation with a large number of repeat customers. We are well known across the West Midlands and Warwickshire, and are the professional caterers here to provide you with an excellent service.', 'The price includes a chef to cook the food, the barbecue and all the food, a serving table with all the required food and condiments and food service implements.'],
 
   'img' => [
     [
@@ -219,67 +219,6 @@ $events['barbecue'] = [
   'end' => ['', '']
 ];
 
-$events['packed_lunches'] = [
-  'service' => 'Packed Lunch',
-  'service_img' => '',
-  'intro' => ['',''],
-
-  'img' => [
-    [
-      'img' => '',
-      'alt' => ''
-    ],
-    [
-      'img' => '',
-      'alt' => ''
-    ],
-    [
-      'img' => '',
-      'alt' => ''
-    ],
-    [
-      'img' => '',
-      'alt' => ''
-    ],
-    [
-      'img' => '',
-      'alt' => ''
-    ],
-    [
-      'img' => '',
-      'alt' => ''
-    ]
-  ],
-
-  'menu_option' => '',
-
-  'option' => [
-    [
-      'title' => '',
-      'info' => ''
-    ],
-    [
-      'title' => '',
-      'info' => ''
-    ],
-    [
-      'title' => '',
-      'info' => ''
-    ],
-    [
-      'title' => '',
-      'info' => ''
-    ]
-  ],
-  'suggested_menus' => [
-    [
-      'menu' => 'Packed Lunch',
-      'link' => 'menus.php',
-      'download' => ' '
-    ]
-  ],
-  'end' => ['', '']
-];
 
 $events['special'] = [
   'service' => 'Special Occasion',
@@ -362,7 +301,7 @@ $events['special'] = [
 $events['funeral'] = [
   'service' => 'Funerals and Wakes',
   'service_img' => 'funeral/rose.png',
-  'intro' => ['Let our family help your family in this difficult time, by letting us cater for you.',''],
+  'intro' => ['Let our family help your family in this difficult time, by letting us cater for you.', ' Call and discuss preferences over the phone or meet face to face to ensure all needs are met at this difficult time.'],
 
   'img' => [
     [
@@ -397,18 +336,77 @@ $events['funeral'] = [
     [
       'title' => 'Cake & Tea',
       'info' => ''
-    ],
-    [
-      'title' => '',
-      'info' => ''
     ]
   ],
   'suggested_menus' => [
     [
-      'menu' => '???',
-      'link' => 'menus.php',
-      'download' => ' '
+      'menu' => 'Finger Buffet',
+      'link' => 'menus.php?menu=deluxe_portioned_finger_buffet',
+      'download' => '/inc/downloads/deluxe_portioned_finger_buffet.pdf'
     ]
   ],
   'end' => ['', 'Let our family help your family in this difficult time, by letting us cater for you.']
 ];
+
+
+// $events['packed_lunches'] = [
+//   'service' => 'Packed Lunch',
+//   'service_img' => '',
+//   'intro' => ['',''],
+//
+//   'img' => [
+//     [
+//       'img' => '',
+//       'alt' => ''
+//     ],
+//     [
+//       'img' => '',
+//       'alt' => ''
+//     ],
+//     [
+//       'img' => '',
+//       'alt' => ''
+//     ],
+//     [
+//       'img' => '',
+//       'alt' => ''
+//     ],
+//     [
+//       'img' => '',
+//       'alt' => ''
+//     ],
+//     [
+//       'img' => '',
+//       'alt' => ''
+//     ]
+//   ],
+//
+//   'menu_option' => '',
+//
+//   'option' => [
+//     [
+//       'title' => '',
+//       'info' => ''
+//     ],
+//     [
+//       'title' => '',
+//       'info' => ''
+//     ],
+//     [
+//       'title' => '',
+//       'info' => ''
+//     ],
+//     [
+//       'title' => '',
+//       'info' => ''
+//     ]
+//   ],
+//   'suggested_menus' => [
+//     [
+//       'menu' => 'Packed Lunch',
+//       'link' => 'menus.php',
+//       'download' => ' '
+//     ]
+//   ],
+//   'end' => ['', '']
+// ];

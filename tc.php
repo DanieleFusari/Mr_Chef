@@ -45,7 +45,7 @@ include('inc/header.php');
       <li>Payment in full is required for all services provided by Mr Chef Catering prior to the event.</li>
       <li>Final guest numbers must be confirmed 3 weeks prior to the event.</li>
       <li>The information provided at this point will be used to produce your total event cost invoice, arrange staff and co-ordinate with your venue.</li>
-      <li>Once our invoice has been received by the client payment must be received no later than.</li>
+      <li>Once our invoice has been received by the client payment must be received no later than 1 week prior to the event.</li>
       <li>Should Mr Chef Catering be advised of any increase in numbers following payment then we reserve the right to accept these and will raise an additional invoice following the event for these guests or extra food needed, payment will be due for immediate settlement by the client.</li>
       <li>Should we be advised of any decrease in numbers following payment it will be dependent on how much notice has been given as to whether any refunds would be given.</li>
     </ol>
