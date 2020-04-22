@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/header_footer.css">
     <link rel="stylesheet" href=<?= $link ?>>
-<link href="https://fonts.googleapis.com/css?family=Italianno|Trirong&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Trirong&display=swap" rel="stylesheet">
     <!--  font-family: 'Trirong', serif;
           font-family: 'Italianno', cursive;
     --------------------------------------------------------------------------->
