@@ -2,8 +2,8 @@
       <div class="extras">
         <img src="img/logos/Catering.png" alt="">
         <ul class="contact_links">
-          <li><a href="about.php">About us</a></li>
-          <li><a href="tc.php">Terms & Conditions</a></li>
+          <li><a href="about">About us</a></li>
+          <li><a href="tc">Terms & Conditions</a></li>
         </ul>
         <ul class="contact_links">
           <li><a href="tel:02476453364">024 7645 3364</a></li>

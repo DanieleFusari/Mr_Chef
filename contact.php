@@ -1,5 +1,5 @@
 <?php
-$link = "/css/contact.css";
+$link = "css/contact.css";
 $title = "Mr Chef Contact";
 include('inc/header.php');
 ?>

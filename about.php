@@ -1,5 +1,5 @@
 <?php
-$link = "/css/about.css";
+$link = "css/about.css";
 $title = "Mr Chef About us";
 include('inc/header.php');
 ?>

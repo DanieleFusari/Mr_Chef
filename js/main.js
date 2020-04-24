@@ -4,7 +4,7 @@ const images = ['2chef_cooking', 'star5', 'chef_cooking', 'cake_table', 'cake_st
 
 function change_img() {
   var image = images[Math.floor(Math.random() * images.length)];
-  main_img[0].setAttribute("style", "background-image: url('../img/home_slider/" + image + ".jpg')" );
+  main_img[0].setAttribute("style", "background-image: url('img/home_slider/" + image + ".jpg')" );
 }
 
 window.setInterval(function(){
