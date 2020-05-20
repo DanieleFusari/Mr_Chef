@@ -53,6 +53,12 @@
   border: 2px solid var(--color-primary);
 }
 
+.tc:link,
+.tc:visited {
+  color: blue;
+  font-size: .8rem;
+  text-decoration: underline;
+}
 
 /* ********************************************** */
 /* *************** Mobile VERSION *************** */

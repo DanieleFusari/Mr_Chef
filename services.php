@@ -71,14 +71,26 @@ All chilled food is prepared then stored in the fridge until ready for delivery 
       </div>
 
       <h2>Hire of Equipment </h2>
-      <h3>We have everything from trays, to canapé spoons, to wooden boards and terracotta ashtrays in stock, ready for you at our warehouse.</h3>
-      <p>Book sooner rather than later to avoid any disappointment! </p>
-
-      <h3>Dinner Plates</h3>
-      <p>We can hire crockery, cutlery, cups and saucers, glasses, water jugs</p>
-
-      <h3>Festive table arrangement.</h3>
-      <p>This classic, elegant dinnerware set will fit into a festive table arrangement.</p>
+      <h3>Here at Mr Chef Catering we can deliver or have equipment ready for collection on site.</h3>
+      <h4>Items available vary from.</h4>
+      <ul>
+        <li>Hog Roast machine - ask for full details, break-down and cost</li>
+        <li>Barbecue - ask for full details, break-down and cost</li>
+        <li>Crockery – Main course, side plates, dessert bowls, soup bowls, cups & saucers, etc.</li>
+        <li>Cutlery</li>
+        <li>Water Jugs</li>
+        <li>Glasses – Wine – champagne flutes – Water and juice glasses.</li>
+        <li>Hot water still</li>
+        <li>Soup terrine</li>
+        <li>Chauffonts</li>
+        <li>Food service flats, trays, and service utensils</li>
+        <li>Tea and Coffee insulated jugs and dispensers</li>
+        <li>Display baskets, large crockery plates and bowls</li>
+        <li>+ many more </li>
+      </ul>
+      <p>Please ask for any specific requirements to suit your event.
+        If we do not stock any item, we can source and supply for you pretty much anything that you may require.
+        When hiring any equipment please check our <a class="tc" href="/tc">Full Terms and Conditions</a></p>
     </div>
   </div>
 

@@ -29,6 +29,12 @@
   font-size: 50px;
 }
 
+#download::after {
+  content: " .pdf";
+  font-family: var(--font-normal);
+  font-size: 1rem;
+}
+
 #download:hover {
   color: #fff;
 

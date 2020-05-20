@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <a tabindex="1" href="index"><img class="logo"src="img/logos/White.png" alt="logo Mr Chef"> </a>
+      <a tabindex="1" href="index"><img class="logo" src="img/logos/White.png" alt="logo Mr Chef"> </a>
       <nav>
         <ul class="menu_list">
           <li tabindex="2" ><a href="services">Services</a></li>
@@ -26,7 +26,7 @@
               <li><a href="events?event=business">Business</a></li>
               <li><a href="events?event=barbecue">Barbecue</a></li>
               <li><a href="events?event=special">Special Occasion</a></li>
-              <!-- <li><a href="events?event=packed_lunches">Packed Lunches</a></li> -->
+              <li><a href="events?event=packed_lunches">Party Bags</a></li>
               <li><a href="events?event=funeral">Funerals</a></li>
             </ul>
           </li>

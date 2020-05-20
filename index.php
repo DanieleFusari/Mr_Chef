@@ -1,3 +1,6 @@
+<div class="cov19">
+  <p class="first_p">Due to the COV19 <a href="cov19">more....... </a></p>  <p class="second_p">If you require catering of any sort please contact Stuart on <a href="tel:07758884277">07758884277</a></p>
+</div>
 <?php
 $link = "css/index.css";
 $title = "Mr Chef";
@@ -20,7 +23,7 @@ include('inc/header.php');
      <div class="main_info_wrapper">
        <img class="main_info_img"src="img/logos/25.jpg" alt="25years">
        <p class="main_info_p">
-        <span>Mr Chef catering the Professional Caterers
+         Mr Chef catering the Professional Caterers
          With over 25 years’ experience and expertise, here at Mr. Chef catering we pride ourselves on our first class reputation as a provider of home-cooked food with an excellent service. All of our food is prepared and cooked under strict health and safety conditions, and using high quality ingredients, from the meat to the seasonings!
          From simple to elaborate, hot or cold buffets, small to large numbers, catering for business needs, christenings, funerals, wedding receptions and all party events, choose your local professional caterer who will provide you with a service that is second to none. Our large repeat customer base proves our expert catering skills time and time again with each event successfully attended to!
          Allow Mr. Chef catering to provide all your catering needs for your event so that you can relax in the knowledge that you are receiving the best service. <a  id="more" href="about.php">more.........</a>

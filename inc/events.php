@@ -37,7 +37,7 @@ $events['wedding'] = [
   'option' => [
     [
       'title' => 'Providing all crockery, cutlery and napkins on the day.',
-      'info' => 'We use china crockery and proper cutlery, to give that professional edge.'
+      'info' => ''
     ],
     [
       'title' => 'A specialist team of waiting staff available for hire.',
@@ -45,7 +45,7 @@ $events['wedding'] = [
     ],
     [
       'title' => 'Fully loaded barbecues',
-      'info' => 'Perfect for any wedding and includes something for everyone’s dietary requirements. With s range of meat and vegetarian options this is suitable for everyone!'
+      'info' => 'Perfect for any wedding and includes something for everyone’s dietary requirements. With a range of meat and vegetarian options this is suitable for everyone!'
     ],
     [
       'title' => 'Wonderful hog roasts.',
@@ -155,7 +155,7 @@ $events['business'] = [
 $events['barbecue'] = [
   'service' => 'Barbecue',
   'service_img' => 'barbecue/flame_gril.jpg',
-  'intro' => ['The team here at Mr Chef are able to offer fantastic, tasty buffets on any scale you require, whether you go for a simple cold buffet, or one of our elaborate menus. We boast a wide range of options, from high quality carved meats, to luxury vol-au-vents.','We offer this range of delicious hot/cold food for any event that you may require catering for. With a collective 25 years plus of experience and knowledge within the industry, we have built an enviable reputation with a large number of repeat customers. We are well known across the West Midlands and Warwickshire, and are the professional caterers here to provide you with an excellent service.', 'The price includes a chef to cook the food, the barbecue and all the food, a serving table with all the required food and condiments and food service implements.'],
+  'intro' => ['We offer this range of delicious hot/cold food for any event that you may require catering for. With a collective 25 years plus of experience and knowledge within the industry, we have built an enviable reputation with a large number of repeat customers. We are well known across the West Midlands and Warwickshire, and are the professional caterers here to provide you with an excellent service.', 'The price includes a chef to cook the food, the barbecue and all the food, a serving table with all the required food and condiments and food service implements.'],
 
   'img' => [
     [
@@ -223,7 +223,7 @@ $events['barbecue'] = [
 $events['special'] = [
   'service' => 'Special Occasion',
   'service_img' => 'special/flute.jpg',
-  'intro' => ['The team here at Mr Chef are able to offer fantastic, tasty buffets on any scale you require, whether you go for a simple cold buffet, or one of our elaborate menus. We boast a wide range of options, from high quality carved meats, to luxury vol-au-vents.','We offer this range of delicious hot/cold food for any event that you may require catering for. With a collective 25 years plus of experience and knowledge within the industry, we have built an enviable reputation with a large number of repeat customers. We are well known across the West Midlands and Warwickshire, and are the professional caterers here to provide you with an excellent service.'],
+  'intro' => ['We offer this range of delicious hot/cold food for any event that you may require catering for. With a collective 25 years plus of experience and knowledge within the industry, we have built an enviable reputation with a large number of repeat customers. We are well known across the West Midlands and Warwickshire, and are the professional caterers here to provide you with an excellent service.', '* Engagement * Birthdays * Civil Partnership * Afternoon Tea * Christening'],
 
   'img' => [
     [
@@ -257,14 +257,6 @@ $events['special'] = [
     [
       'img' => 'special/kissing_mother.jpg',
       'alt' => 'Pregnet mother'
-    ],
-    [
-      'img' => 'special/rainbow.jpg',
-      'alt' => 'Rainbow'
-    ],
-    [
-      'img' => 'special/flamingo_cake.jpg',
-      'alt' => 'Flamingo Cake'
     ]
   ],
 
@@ -290,9 +282,29 @@ $events['special'] = [
   ],
   'suggested_menus' => [
     [
-      'menu' => ' ',
-      'link' => '',
-      'download' => ' '
+      'menu' => 'BBQ',
+      'link' => 'menus?menu=barbecue',
+      'download' => 'inc/downloads/BBQ.pdf'
+    ],
+    [
+      'menu' => 'Finger Buffet',
+      'link' => 'menus.php?menu=deluxe_portioned_finger_buffet',
+      'download' => '/inc/downloads/deluxe_portioned_finger_buffet.pdf'
+    ],
+    [
+      'menu' => 'Pig Roast',
+      'link' => 'menus.php?menu=pig_roast',
+      'download' => 'inc/downloads/pig_roast.pdf'
+    ],
+    [
+      'menu' => 'Carved Buffet',
+      'link' => 'menus?menu=carved_buffet',
+      'download' => '/inc/downloads/carved_buffet.pdf'
+    ],
+    [
+      'menu' => 'Hot Food',
+      'link' => 'menus.php?menu=hot_food_menu',
+      'download' => '/inc/downloads/hot_food_menu.pdf'
     ]
   ],
   'end' => ['', '']
@@ -341,11 +353,36 @@ $events['funeral'] = [
   'suggested_menus' => [
     [
       'menu' => 'Finger Buffet',
+      'link' => 'menus.php?menu=portioned_finger_buffet',
+      'download' => '/inc/downloads/portioned_finger_buffet.pdf'
+    ],
+    [
+      'menu' => 'BBQ',
+      'link' => 'menus?menu=barbecue',
+      'download' => 'inc/downloads/BBQ.pdf'
+    ],
+    [
+      'menu' => 'Finger Buffet Deluxe',
       'link' => 'menus.php?menu=deluxe_portioned_finger_buffet',
       'download' => '/inc/downloads/deluxe_portioned_finger_buffet.pdf'
+    ],
+    [
+      'menu' => 'Pig Roast',
+      'link' => 'menus.php?menu=pig_roast',
+      'download' => 'inc/downloads/pig_roast.pdf'
+    ],
+    [
+      'menu' => 'Carved Buffet',
+      'link' => 'menus?menu=carved_buffet',
+      'download' => '/inc/downloads/carved_buffet.pdf'
+    ],
+    [
+      'menu' => 'Hot Food',
+      'link' => 'menus.php?menu=hot_food_menu',
+      'download' => '/inc/downloads/hot_food_menu.pdf'
     ]
   ],
-  'end' => ['', 'Let our family help your family in this difficult time, by letting us cater for you.']
+  'end' => ['', '']
 ];
 
 
