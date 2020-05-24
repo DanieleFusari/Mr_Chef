@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/* font-family: 'Sriracha', cursive; */
+
+main {
+  background-color: #fff;
+  font-family: var(--font-normal);
+  width: 100%;
+  margin: auto;
+}
+
+main::before {
+  content: "";
+  display: table;
+}
+
+.header {
+  text-align: center;
+  margin: 20px;
+  color: var(--color-primary);
+  font-family: var(--font-fancy);
+  font-size: 3rem;
+  background-color: #fff;
+}
+
+.p {
+  margin: 0px 0px;
+  padding: 30px 50px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  background-color: var(--color-primary);
+}
+
+.bow_mobile {
+  width: 50%;
+  margin: 0 30%;
+}
+
+.bow {
+  display: none;
+  background-image: url("/img/tag.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 65%;
+  height: 300px;
+  position: relative;
+  margin: -30px 25%;
+  padding: 0;
+}
+
+.bow_text {
+  position: absolute;
+  bottom: -50px;
+  left: 25px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: var(--font-fancy);
+  color: yellow;
+  text-shadow: 1px 1px 3px #000;
+  text-align: center;
+  line-height: 50px;
+}
+
+.vat {
+  color: var(--color-primary);
+  font-size: 1.8rem;
+}
+
+.lunch_box,
+.lunch_extra,
+.mm {
+  width: 100%;
+  margin: 50px 0 20px;
+  padding: 0;
+}
+
+.lunch_pack,
+.extra,
+.mix_match {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 5rem;
+  text-align: center;
+  font-family: var(--font-fancy);
+  color: var(--color-primary);
+}
+
+.lunch_items,
+.extra_items,
+.mix_match_items {
+  text-align: center;
+  list-style-type: decimal;
+  margin: 20px auto;
+  padding: 0;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: 'Sriracha', cursive;
+  border-bottom: 1px solid #000;
+  line-height: 65px;
+  list-style-position: inside;
+}
+
+.lunch_bag_apple{
+  display: block;
+  margin: 100px auto 0;
+  width: 70%;
+}
+
+/* Secontion Extra  */
+.upgrade {
+  font-family: 'Sriracha', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+.upgrade span {
+  font-size: 3rem;
+  color: red;
+  display: block;
+  margin: 20px;
+  padding: 0;
+}
+
+.lunch_bag {
+  width: 70%;
+  margin: 0 20%;
+  padding: 0;
+}
+
+
+.lunch_extra {
+  padding: 0;
+  margin: auto;
+}
+
+.extra {
+  /* above with lunch items */
+  text-align: center;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.extra_items {
+  /* above with lunch items */
+  list-style-type: upper-latin;
+}
+
+
+/* END Secontion Extra  */
+
+
+/* mix match section */
+
+.mm {
+  margin: 0;
+  padding: 0;
+}
+
+.mix_match{
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: normal;
+  margin: 0;
+  padding: 0 0 30px 0;
+
+}
+
+.mix_match_items {
+  list-style-type: decimal-leading-zero;
+  padding: 0;
+  margin: 0;
+}
+
+.lunch_bag_box {
+  width: 70%;
+  display: block;
+  margin: 30px auto;
+}
+
+/* END mix match section */
+
+
+/* ********************************************** */
+/* *************** 768px VERSION *************** */
+/* ********************************************** */
+
+@media (min-width:760px) {
+  .bow {
+    display: none;
+  }
+
+  .bow_mobile {
+    width: 50%;
+    margin: 0 25%;
+  }
+}
+
+/* ********************************************** */
+/* *************** 1025px VERSION *************** */
+/* ********************************************** */
+
+@media (min-width:1025px) {
+  main {
+    background-color: #fff;
+    font-family: var(--font-normal);
+    width: 80%;
+    margin: auto;
+  }
+
+  main::before {
+    content: "";
+    display: table;
+  }
+
+  .header {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+    color: var(--color-primary);
+    font-family: var(--font-fancy);
+    font-size: 4.5rem;
+    background-color: #fff;
+  }
+
+  .p {
+    margin: 0px 0px;
+    padding: 30px 50px;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    background-color: var(--color-primary);
+  }
+
+  .bow_mobile {
+    display: none;
+  }
+
+  .bow {
+    display: block;
+    background-image: url("/img/tag.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    width: 400px;
+    height: 400px;
+    float: right;
+    position: relative;
+    margin: -100px 0;
+    padding: 0;
+  }
+
+  .bow_text {
+    position: absolute;
+    bottom: -30px;
+    left: 85px;
+    font-size: 4.8rem;
+    font-weight: bold;
+    font-family: var(--font-fancy);
+    color: yellow;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .vat {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+  }
+
+  .lunch_box,
+  .lunch_extra,
+  .mm {
+    width: 60%;
+    margin: 20px 0;
+  }
+
+  .lunch_pack,
+  .extra,
+  .mix_match {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 5.5rem;
+    text-align: center;
+    font-family: var(--font-fancy);
+    color: var(--color-primary);
+  }
+
+  .lunch_bag_apple{
+    float: right;
+    margin: 350px -300px 0 0;
+    width: 35%;
+    /* border: 1px solid red; */
+  }
+
+  .lunch_items,
+  .extra_items,
+  .mix_match_items {
+    text-align: center;
+    list-style-type: decimal;
+    margin: 20px auto;
+    padding: 50px 10px;
+    width: 55%;
+    font-size: 1.2rem;
+    font-family: 'Sriracha', cursive;
+    box-shadow: 10px 10px 20px var(--color-gray);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 20px;
+    line-height: 80px;
+    /* background-color: #EBF4F4; */
+  }
+
+
+  /* Secontion Extra  */
+  .upgrade {
+    font-family: 'Sriracha', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: -50px 10px 0 auto;
+    width: 50%;
+  }
+
+  .upgrade span {
+    font-size: 4rem;
+    color: red;
+  }
+
+  .lunch_bag {
+    float: left;
+    width: 35%;
+    margin: 0px 100px;
+  }
+
+  .lunch_extra {
+    padding: 0;
+    margin-left: auto;
+    margin-right: -45px;
+  }
+
+  .extra {
+    /* above with lunch items */
+    text-align: left;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .extra_items {
+    /* above with lunch items */
+    list-style-type: upper-latin;
+    padding-top: 0;
+  }
+
+
+  /* END Secontion Extra  */
+
+
+  /* mix match section */
+
+  .mm {
+    margin-left: -30px;
+    margin-bottom: 0px;
+    padding-bottom: 150px;
+
+  }
+
+  .mix_match{
+    font-size: 2.8rem;
+    line-height: normal;
+    margin: 0;
+    padding: 0 0 30px 0;
+
+  }
+
+  .mix_match_items {
+    list-style-type: decimal-leading-zero;
+    padding: 10px 0 50px 0;
+  }
+
+  .lunch_bag_box {
+    width: 35%;
+    float: right;
+    margin: 50px 80px 0 0;
+  }
+
+  /* END mix match section */
+
+}
