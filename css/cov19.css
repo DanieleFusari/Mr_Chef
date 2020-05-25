@@ -1,397 +1,221 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-/* font-family: 'Sriracha', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Sriracha&family=Trirong&display=swap');
 
 main {
   background-color: #fff;
-  font-family: var(--font-normal);
+  font-family: 'Trirong', serif;
   width: 100%;
   margin: auto;
 }
 
 main::before {
-  content: "";
+  content: '';
   display: table;
+  clear: both;
 }
 
+
 .header {
+  background-color: #990000;
   text-align: center;
-  margin: 20px;
-  color: var(--color-primary);
-  font-family: var(--font-fancy);
-  font-size: 3rem;
-  background-color: #fff;
+  margin: 10px 0 0 0;
+  color: #fff;
+  font-family: 'Italianno', cursive;
+  font-size: 2rem;
 }
 
 .p {
-  margin: 0px 0px;
-  padding: 30px 50px;
+  background-color: #fff;
   font-size: 1rem;
-  color: #fff;
-  font-weight: bold;
   text-align: center;
-  line-height: 30px;
-  background-color: var(--color-primary);
+  padding: 20px;
+  margin: 0;
+  color: #000;
+  border-top: 8px solid #990000;
+  border-bottom: 8px solid #990000;
+  text-decoration: none;
 }
 
-.bow_mobile {
+.price_tag{
   width: 50%;
-  margin: 0 30%;
-}
-
-.bow {
-  display: none;
-  background-image: url("/img/tag.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  width: 65%;
-  height: 300px;
-  position: relative;
-  margin: -30px 25%;
-  padding: 0;
-}
-
-.bow_text {
-  position: absolute;
-  bottom: -50px;
-  left: 25px;
-  font-size: 4rem;
-  font-weight: bold;
-  font-family: var(--font-fancy);
-  color: yellow;
-  text-shadow: 1px 1px 3px #000;
-  text-align: center;
-  line-height: 50px;
-}
-
-.vat {
-  color: var(--color-primary);
-  font-size: 1.8rem;
-}
-
-.lunch_box,
-.lunch_extra,
-.mm {
-  width: 100%;
-  margin: 50px 0 20px;
-  padding: 0;
-}
-
-.lunch_pack,
-.extra,
-.mix_match {
-  padding: 0;
+  display: block;
   margin: 0 auto;
-  font-size: 5rem;
-  text-align: center;
-  font-family: var(--font-fancy);
-  color: var(--color-primary);
+  background-color: #fff;
 }
 
-.lunch_items,
-.extra_items,
-.mix_match_items {
+
+.lunch_pack_wrapper,
+.lunch_extra_wrapper,
+.mix_match_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 8px solid #990000;
+  background-color: #fff;
+}
+
+.lunch_pack_h4,
+.upgrade_h4 {
+  background-color: #fff;
+  color: #990000;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.upgrade_h4 {
+  font-family: 'Sriracha', cursive;
+  font-size: 1.6rem;
+}
+
+.two_images{
+  text-align: center;
+}
+
+.lunch_bag_apple_img,
+.lunch_bags_img,
+.lunch_bag_box_img,
+.£1 {
+  width: 33%;
+  margin: 20px 0 0 0 ;
+}
+
+.lunch_bag_apple_img {
+    width: 44%;
+}
+
+.mix_match_h5,
+.extra_h5 {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #990000;
+  line-height: normal;
+  text-align: left;
+}
+
+.lunch_items_li,
+.extra_items_li,
+.mix_match_items_li {
+  width: 80%;
+  font-size: 1.2rem;
+  padding: 0 30px;
+  line-height: 50px;
+  box-shadow: 1px 15px 10px #000;
   text-align: center;
   list-style-type: decimal;
-  margin: 20px auto;
-  padding: 0;
-  width: 100%;
-  font-size: 1.2rem;
-  font-family: 'Sriracha', cursive;
-  border-bottom: 1px solid #000;
-  line-height: 65px;
   list-style-position: inside;
 }
 
-.lunch_bag_apple{
-  display: block;
-  margin: 100px auto 0;
-  width: 70%;
-}
-
-/* Secontion Extra  */
-.upgrade {
-  font-family: 'Sriracha', cursive;
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 40px 0 0 0;
-  padding: 0;
-}
-
-.upgrade span {
-  font-size: 3rem;
-  color: red;
-  display: block;
-  margin: 20px;
-  padding: 0;
-}
-
-.lunch_bag {
-  width: 70%;
-  margin: 0 20%;
-  padding: 0;
-}
-
-
-.lunch_extra {
-  padding: 0;
-  margin: auto;
-}
-
-.extra {
-  /* above with lunch items */
-  text-align: center;
-  font-size: 3rem;
-  padding: 0;
-  margin: 0;
-}
-
-.extra_items {
-  /* above with lunch items */
-  list-style-type: upper-latin;
-}
-
-
-/* END Secontion Extra  */
-
-
-/* mix match section */
-
-.mm {
-  margin: 0;
-  padding: 0;
-}
-
-.mix_match{
-  font-size: 2.4rem;
-  text-align: center;
-  line-height: normal;
-  margin: 0;
-  padding: 0 0 30px 0;
+.extra_items_li {
+  list-style-type:  upper-latin;
 
 }
 
-.mix_match_items {
+.mix_match_items_li {
   list-style-type: decimal-leading-zero;
-  padding: 0;
-  margin: 0;
-}
-
-.lunch_bag_box {
-  width: 70%;
-  display: block;
-  margin: 30px auto;
-}
-
-/* END mix match section */
-
-
-/* ********************************************** */
-/* *************** 768px VERSION *************** */
-/* ********************************************** */
-
-@media (min-width:760px) {
-  .bow {
-    display: none;
-  }
-
-  .bow_mobile {
-    width: 50%;
-    margin: 0 25%;
-  }
 }
 
 /* ********************************************** */
-/* *************** 1025px VERSION *************** */
+/* ********************************************** */
+/* ********************************************** */
+/* *************** 1024px VERSION *************** */
+/* *************** 1024px VERSION *************** */
+/* *************** 1024px VERSION *************** */
+/* ********************************************** */
+/* ********************************************** */
 /* ********************************************** */
 
-@media (min-width:1025px) {
+@media (min-width:1024px) {
   main {
-    background-color: #fff;
-    font-family: var(--font-normal);
     width: 80%;
-    margin: auto;
-  }
-
-  main::before {
-    content: "";
-    display: table;
   }
 
   .header {
-    text-align: center;
-    padding: 10px 0;
-    margin: 20px 0;
-    color: var(--color-primary);
-    font-family: var(--font-fancy);
-    font-size: 4.5rem;
-    background-color: #fff;
+    margin: 10px 0 0 -15px;
+    width: 103%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 5rem;
   }
 
   .p {
-    margin: 0px 0px;
-    padding: 30px 50px;
-    font-size: 1.3rem;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    line-height: 35px;
-    background-color: var(--color-primary);
+    font-size: 1.5rem;
+    padding: 50px 50px 10px 50px;
   }
 
-  .bow_mobile {
-    display: none;
+  .p a{
+    line-height: 100px;
   }
 
-  .bow {
+  .price_tag{
+    width: 33%;
+    float: right;
+  }
+
+  .lunch_pack_wrapper,
+  .lunch_extra_wrapper,
+  .mix_match_wrapper {
+    border-bottom: none;
+  }
+
+  .lunch_pack_wrapper {
     display: block;
-    background-image: url("/img/tag.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 300px;
-    width: 400px;
-    height: 400px;
-    float: right;
-    position: relative;
-    margin: -100px 0;
-    padding: 0;
+    margin-left: 5%;
+
   }
 
-  .bow_text {
-    position: absolute;
-    bottom: -30px;
-    left: 85px;
-    font-size: 4.8rem;
-    font-weight: bold;
-    font-family: var(--font-fancy);
-    color: yellow;
-    text-shadow: 1px 1px 3px #000;
-    text-align: center;
-    line-height: 50px;
+  .lunch_pack_h4 {
+    font-size: 4rem;
+    margin: 50px;
+    text-align: left;
   }
 
-  .vat {
-    color: var(--color-primary);
-    font-size: 1.8rem;
-  }
-
-  .lunch_box,
-  .lunch_extra,
-  .mm {
-    width: 60%;
-    margin: 20px 0;
-  }
-
-  .lunch_pack,
-  .extra,
-  .mix_match {
-    padding: 0;
-    margin: 10px 0;
-    font-size: 5.5rem;
-    text-align: center;
-    font-family: var(--font-fancy);
-    color: var(--color-primary);
-  }
-
-  .lunch_bag_apple{
-    float: right;
-    margin: 350px -300px 0 0;
-    width: 35%;
-    /* border: 1px solid red; */
-  }
-
-  .lunch_items,
-  .extra_items,
-  .mix_match_items {
-    text-align: center;
-    list-style-type: decimal;
-    margin: 20px auto;
-    padding: 50px 10px;
-    width: 55%;
-    font-size: 1.2rem;
-    font-family: 'Sriracha', cursive;
-    box-shadow: 10px 10px 20px var(--color-gray);
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    border-radius: 20px;
-    line-height: 80px;
-    /* background-color: #EBF4F4; */
-  }
-
-
-  /* Secontion Extra  */
-  .upgrade {
-    font-family: 'Sriracha', cursive;
-    font-size: 3rem;
-    text-align: center;
-    margin: -50px 10px 0 auto;
+  .two_images {
     width: 50%;
   }
 
-  .upgrade span {
-    font-size: 4rem;
-    color: red;
+  .lunch_items_li {
+    width: 45%;
   }
 
-  .lunch_bag {
-    float: left;
-    width: 35%;
-    margin: 0px 100px;
-  }
-
-  .lunch_extra {
-    padding: 0;
+  .lunch_extra_wrapper {
+    width: 48%;
     margin-left: auto;
-    margin-right: -45px;
+    margin-top: -200px;
   }
 
-  .extra {
-    /* above with lunch items */
-    text-align: left;
-    font-size: 3rem;
-    padding: 0;
-    margin: 0;
-
+  .upgrade_h4{
+    font-size: 2.5rem;
+    width: 80%;
   }
 
-  .extra_items {
-    /* above with lunch items */
-    list-style-type: upper-latin;
-    padding-top: 0;
+  .extra_items_li{
+    width: 90%;
   }
 
-
-  /* END Secontion Extra  */
-
-
-  /* mix match section */
-
-  .mm {
-    margin-left: -30px;
-    margin-bottom: 0px;
-    padding-bottom: 150px;
-
+  .extra_h5,
+  .mix_match_h5 {
+    font-size: 1.4rem;
   }
 
-  .mix_match{
-    font-size: 2.8rem;
-    line-height: normal;
-    margin: 0;
-    padding: 0 0 30px 0;
-
+  .mix_match_wrapper {
+    width: 48%;
+    margin-top: -450px;
   }
 
-  .mix_match_items {
-    list-style-type: decimal-leading-zero;
-    padding: 10px 0 50px 0;
+  .lunch_bag_box_img{
+    width: 60%;
+        margin-left: 5%;
+    margin-bottom: 30px;
   }
 
-  .lunch_bag_box {
-    width: 35%;
-    float: right;
-    margin: 50px 80px 0 0;
+  .mix_match_items_li{
+    width: 90%;
+    margin-left: auto;
   }
 
-  /* END mix match section */
 
 }

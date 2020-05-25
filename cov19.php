@@ -5,7 +5,6 @@ include('inc/header.php');
 ?>
 
 <main>
-
   <h1 class="header">We are here when you need us!!</h1>
 
   <p class="p">With restrictions slowly being relaxed and people coming back
@@ -14,17 +13,19 @@ include('inc/header.php');
     <br>
     Our menus already offer a lunch bag option but we are also
     offering a grab and go station set up for your meetings!!
+    <br>
   </p>
 
+  <img class="price_tag" src="img/tag.png" alt="tag">
 
-  <div class="bow"><p class="bow_text">£6.00<br><span class="vat"> + Vat</span></p></div>
-  <img class="bow_mobile" src="/img/bow.jpg" alt="bow">
+  <div class="lunch_pack_wrapper">
+    <h4 class="lunch_pack_h4">Lunch pack</h4>
+    <div class="two_images">
+      <img class="lunch_bags_img" src="img/lunch%20bags.png" alt="Lunch bags">
+      <img class="lunch_bag_apple_img" src="img/lunch_bag.png" alt="Lunch bags">
+    </div>
 
-  <img class="lunch_bag_apple" src="img/lunch_bag.png" alt="Lunch bags">
-
-  <div class="lunch_box">
-    <h4 class="lunch_pack">Lunch pack</h4>
-    <ul class="lunch_items">
+    <ul class="lunch_items_li">
       <li>Pre-Packed Sandwich</li>
       <li>Bag of Crisps</li>
       <li>Piece of Fruit</li>
@@ -33,14 +34,12 @@ include('inc/header.php');
     </ul>
   </div>
 
+  <div class="lunch_extra_wrapper">
+    <h4 class="upgrade_h4">Pick 3 extra items for just </h4>
+    <img class="£1" src="img/pound.png" alt="£1">
 
-  <div class="upgrade">Pick 3 extra items for just <span>£1</span></div>
-  <img class="lunch_bag" src="img/lunch%20bags.png" alt="Lunch bags">
-
-  <div class="lunch_extra">
-    <ul class="extra_items">
-      <h4 class="extra">Extra Items...</h4>
-
+    <ul class="extra_items_li">
+      <h5 class="extra_h5">Extra Items...</h5>
       <li>Mini Quiche</li>
       <li>Chicken Skewer</li>
       <li>Chicken Satay</li>
@@ -49,11 +48,13 @@ include('inc/header.php');
     </ul>
   </div>
 
-  <img class="lunch_bag_box" src="img/lunch-box.png" alt="Lunch bags">
 
-  <div class="mm">
-    <ul class="mix_match_items">
-      <h5 class="mix_match">Mix and Match <br> your Lunch Pack</h5>
+  <div class="mix_match_wrapper">
+
+    <img class="lunch_bag_box_img" src="img/lunch-box.png" alt="Lunch bags">
+
+    <ul class="mix_match_items_li">
+      <h5 class="mix_match_h5">Bags Designed to fit <br>your requirements</h5>
       <li>Healthy Bars</li>
       <li>Fruit Pots</li>
       <li>Yoghurt Pot</li>
