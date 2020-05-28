@@ -1,3 +1,4 @@
+<div class="un">
 <div class="cov19">
   <p class="first_p">Due to the COV19 <a href="cov19">more....... </a></p>  <p class="second_p">If you require catering of any sort please contact Stuart on <a href="tel:07758884277">07758884277</a></p>
 </div>
@@ -38,3 +39,6 @@ include('inc/header.php');
 </main>
 
 <?php include('inc/footer.php')?>
+</div>
+
+<img class="under_construction" src="img/under_construction.png" alt="under construction">
