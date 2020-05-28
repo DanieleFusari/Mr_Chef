@@ -4,7 +4,7 @@ $title = "Mr Chef Service";
 include('inc/header.php');
 ?>
 
-<main>
+<main class="clear">
   <h1 class="header">We are here when you need us!!</h1>
 
   <p class="p">With restrictions slowly being relaxed and people coming back
@@ -16,10 +16,9 @@ include('inc/header.php');
     <br>
   </p>
 
-  <img class="price_tag" src="img/tag.png" alt="tag">
-
   <div class="lunch_pack_wrapper">
     <h4 class="lunch_pack_h4">Lunch pack</h4>
+    <p class="lunch_pack_p">Lunch Packs From £6.00 + vat</p>
     <div class="two_images">
       <img class="lunch_bags_img" src="img/lunch%20bags.png" alt="Lunch bags">
       <img class="lunch_bag_apple_img" src="img/lunch_bag.png" alt="Lunch bags">
@@ -35,32 +34,20 @@ include('inc/header.php');
   </div>
 
   <div class="lunch_extra_wrapper">
-    <h4 class="upgrade_h4">Pick 3 extra items for just </h4>
-    <img class="£1" src="img/pound.png" alt="£1">
-
+    <h2 class="extra_h2">Extra items</h2>
+    <p class="lunch_extra_p">Add extras or mix and match. <br> Please enquire for prices! </p>
+    <img class="lunch_bag_box_img" src="img/lunch-box.png" alt="Lunch bags">
     <ul class="extra_items_li">
-      <h5 class="extra_h5">Extra Items...</h5>
       <li>Mini Quiche</li>
       <li>Chicken Skewer</li>
       <li>Chicken Satay</li>
       <li>Baijis & Samosa (v)</li>
       <li>Spring Roll (v)</li>
-    </ul>
-  </div>
-
-
-  <div class="mix_match_wrapper">
-
-    <img class="lunch_bag_box_img" src="img/lunch-box.png" alt="Lunch bags">
-
-    <ul class="mix_match_items_li">
-      <h5 class="mix_match_h5">Bags Designed to fit <br>your requirements</h5>
       <li>Healthy Bars</li>
       <li>Fruit Pots</li>
       <li>Yoghurt Pot</li>
       <li>Salad Pot</li>
     </ul>
-
   </div>
 
 </main>

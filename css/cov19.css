@@ -17,7 +17,6 @@ main::before {
 .header {
   background-color: #990000;
   text-align: center;
-  margin: 10px 0 0 0;
   color: #fff;
   font-family: 'Italianno', cursive;
   font-size: 2rem;
@@ -27,25 +26,15 @@ main::before {
   background-color: #fff;
   font-size: 1rem;
   text-align: center;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   margin: 0;
   color: #000;
-  border-top: 8px solid #990000;
   border-bottom: 8px solid #990000;
   text-decoration: none;
 }
 
-.price_tag{
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-  background-color: #fff;
-}
-
-
 .lunch_pack_wrapper,
-.lunch_extra_wrapper,
-.mix_match_wrapper {
+.lunch_extra_wrapper{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,18 +46,21 @@ main::before {
 }
 
 .lunch_pack_h4,
-.upgrade_h4 {
+.extra_h2 {
   background-color: #fff;
   color: #990000;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-.upgrade_h4 {
-  font-family: 'Sriracha', cursive;
-  font-size: 1.6rem;
+.lunch_pack_p,
+.lunch_extra_p {
+  margin: 0;
+  padding: 0;
+  color: #990000;
+  text-align: center;
 }
 
 .two_images{
@@ -77,8 +69,7 @@ main::before {
 
 .lunch_bag_apple_img,
 .lunch_bags_img,
-.lunch_bag_box_img,
-.£1 {
+.lunch_bag_box_img {
   width: 33%;
   margin: 20px 0 0 0 ;
 }
@@ -87,22 +78,12 @@ main::before {
     width: 44%;
 }
 
-.mix_match_h5,
-.extra_h5 {
-  margin: 10px 0;
-  font-size: 1rem;
-  color: #990000;
-  line-height: normal;
-  text-align: left;
-}
-
 .lunch_items_li,
-.extra_items_li,
-.mix_match_items_li {
-  width: 80%;
-  font-size: 1.2rem;
+.extra_items_li{
+  width: 90%;
+  font-size: 1.1rem;
   padding: 0 30px;
-  line-height: 50px;
+  line-height: 30px;
   box-shadow: 1px 15px 10px #000;
   text-align: center;
   list-style-type: decimal;
@@ -111,12 +92,8 @@ main::before {
 
 .extra_items_li {
   list-style-type:  upper-latin;
-
 }
 
-.mix_match_items_li {
-  list-style-type: decimal-leading-zero;
-}
 
 /* ********************************************** */
 /* ********************************************** */
@@ -133,88 +110,35 @@ main::before {
     width: 80%;
   }
 
+
   .header {
-    margin: 10px 0 0 -15px;
-    width: 103%;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .p {
-    font-size: 1.5rem;
-    padding: 50px 50px 10px 50px;
-  }
-
-  .p a{
-    line-height: 100px;
-  }
-
-  .price_tag{
-    width: 33%;
-    float: right;
+    font-size: 1.3rem;
   }
 
   .lunch_pack_wrapper,
-  .lunch_extra_wrapper,
-  .mix_match_wrapper {
-    border-bottom: none;
-  }
-
-  .lunch_pack_wrapper {
-    display: block;
-    margin-left: 5%;
-
-  }
-
-  .lunch_pack_h4 {
-    font-size: 4rem;
-    margin: 50px;
-    text-align: left;
-  }
-
-  .two_images {
+  .lunch_extra_wrapper{
     width: 50%;
+    float: left;
+    border: none;
+
   }
 
-  .lunch_items_li {
-    width: 45%;
+  .lunch_items_li{
+    margin-top: 56px;
   }
 
   .lunch_extra_wrapper {
-    width: 48%;
-    margin-left: auto;
-    margin-top: -200px;
+    float: right;
   }
 
-  .upgrade_h4{
-    font-size: 2.5rem;
-    width: 80%;
-  }
-
-  .extra_items_li{
-    width: 90%;
-  }
-
-  .extra_h5,
-  .mix_match_h5 {
-    font-size: 1.4rem;
-  }
-
-  .mix_match_wrapper {
-    width: 48%;
-    margin-top: -450px;
-  }
-
-  .lunch_bag_box_img{
-    width: 60%;
-        margin-left: 5%;
-    margin-bottom: 30px;
-  }
-
-  .mix_match_items_li{
-    width: 90%;
-    margin-left: auto;
+  .clear::after {
+    content: ' ';
+    display: table;
+    clear: both;
   }
 
 

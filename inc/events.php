@@ -239,20 +239,12 @@ $events['special'] = [
       'alt' => 'Champagne'
     ],
     [
-      'img' => 'special/engaged.jpg',
-      'alt' => 'Engaged'
-    ],
-    [
       'img' => 'special/happiness.jpg',
       'alt' => 'Happiness Cake'
     ],
     [
       'img' => 'special/floral_headbands.jpg',
       'alt' => 'Floral Headbands'
-    ],
-    [
-      'img' => 'special/kid_party.jpg',
-      'alt' => 'Kids Party'
     ],
     [
       'img' => 'special/kissing_mother.jpg',
