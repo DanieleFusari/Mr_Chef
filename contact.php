@@ -22,7 +22,7 @@ include('inc/header.php');
       <h3>Address:</h3>
       Unit 9 Building 16</br>
       Bilton Industrial Estate</br>
-      Humber Avene</br>
+      Humber Avenue</br>
       Coventry</br>
       CV3 1JL
       </address>

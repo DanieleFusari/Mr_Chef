@@ -28,6 +28,7 @@
               <li><a href="events?event=special">Special Occasion</a></li>
               <li><a href="events?event=packed_lunches">Party Bags</a></li>
               <li><a href="events?event=funeral">Funerals</a></li>
+              <li><a href="gallery">Gallery View</a></li>
             </ul>
           </li>
           <li tabindex="4" class="nav_menus "><a href="menus">Menus</a>

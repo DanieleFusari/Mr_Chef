@@ -3,7 +3,7 @@
 $events['wedding'] = [
   'service' => 'Wedding',
   'service_img' => 'wedding/wedding.jpg',
-  'intro' => ['Are you looking for expert wedding catering in Coventry and the surrounding areas?', 'Here at Mr Chef, the highly experienced and qualified catering company, we are dedicated to making your wedding day memorable and special for everyone involved. Did you you know that studies in 2016 revealed that the food served at the wedding was the number one part of the day that people remembered? This is why it is so key to get it right!', 'Whether you are having a small, low key family gathering after your service or an elaborate wedding with hundreds of guests, no clients request is too big or small for our specialist team at Mr Chef. We look after every aspect of the catering, so that you can rest easy and enjoy the day as we serve high quality delicacies throughout!'],
+  'intro' => ['Are you looking for expert wedding catering in Coventry and the surrounding areas?', 'Here at Mr Chef, the highly experienced and qualified catering company, we are dedicated to making your wedding day memorable and special for everyone involved. Did you know that studies in 2016 revealed that the food served at the wedding was the number one part of the day that people remembered? This is why it is so key to get it right!', 'Whether you are having a small, low key family gathering after your service or an elaborate wedding with hundreds of guests, no clients request is too big or small for our specialist team at Mr Chef. We look after every aspect of the catering, so that you can rest easy and enjoy the day as we serve high quality delicacies throughout!'],
 
   'img' => [
     [
@@ -64,8 +64,8 @@ $events['wedding'] = [
       'download' => 'inc/downloads/plated_dinner_service.pdf'
     ],
     [
-      'menu' => 'The Plated Meal Desert',
-      'link' => 'menus.php?menu=plated_dinner_service#desert',
+      'menu' => 'The Plated Meal Dessert',
+      'link' => 'menus.php?menu=plated_dinner_service#dessert',
       'download' => 'inc/downloads/plated_dinner_service_main_desserts.pdf'
     ],
     [
